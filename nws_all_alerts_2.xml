@@ -1,0 +1,2645 @@
+<?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?>
+
+<!--
+This atom/xml feed is an index to active advisories, watches and warnings 
+issued by the National Weather Service.  This index file is not the complete 
+Common Alerting Protocol (CAP) alert message.  To obtain the complete CAP 
+alert, please follow the links for each entry in this index.  Also note the 
+CAP message uses a style sheet to convey the information in a human readable 
+format.  Please view the source of the CAP message to see the complete data 
+set.  Not all information in the CAP message is contained in this index of 
+active alerts.
+-->
+
+<feed
+xmlns = 'http://www.w3.org/2005/Atom'
+xmlns:cap = 'urn:oasis:names:tc:emergency:cap:1.1'
+xmlns:ha = 'http://www.alerting.net/namespace/index_1.0'
+>
+<!-- http-date = Sun, 08 Jan 2012 03:29:00 GMT -->
+<id>http://alerts.weather.gov/cap/</id>
+<logo>http://alerts.weather.gov/images/xml_logo.gif</logo>
+<generator>NWS CAP Server</generator>
+<updated>2012-01-08T06:29:00-09:00</updated>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Current Watches, Warnings and Advisories for the United States Issued by the National Weather Service</title>
+<link href='http://alerts.weather.gov/cap/'/>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E63844.WinterWeatherAdvisory.124C93E73E60AK.AFCWSWAER.771d0e341955aa771515039f54c38379</id>
+<updated>2012-01-08T06:29:00-09:00</updated>
+<published>2012-01-08T06:29:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 6:29AM AKST until January 08 at 1:00PM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E63844.WinterWeatherAdvisory.124C93E73E60AK.AFCWSWAER.771d0e341955aa771515039f54c38379'/>
+<summary>...WINTER WEATHER ADVISORY FOR SNOW NOW IN EFFECT UNTIL 1 PM AKST THIS AFTERNOON... THE WINTER WEATHER ADVISORY IS NOW IN EFFECT UNTIL 1 PM AKST THIS AFTERNOON. * SNOW...3 TO 5 ADDITIONAL INCHES OF ACCUMULATION. STORM TOTAL ACCUMULATION OF 8 TO 12 INCHES.</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T06:29:00-09:00</cap:effective>
+<cap:expires>2012-01-08T13:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Anchorage</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002020</value>
+<valueName>UGC</valueName>
+<value>AKZ101</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.EXT.PAFC.WW.Y.0005.000000T0000Z-120108T2200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E63844.BlizzardWarning.124C93F34C50AK.AFCWSWAER.d40c5fb03940cb797e5c33e31ce0630e</id>
+<updated>2012-01-08T06:29:00-09:00</updated>
+<published>2012-01-08T06:29:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Blizzard Warning issued January 08 at 6:29AM AKST until January 08 at 4:00PM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E63844.BlizzardWarning.124C93F34C50AK.AFCWSWAER.d40c5fb03940cb797e5c33e31ce0630e'/>
+<summary>...BLIZZARD WARNING REMAINS IN EFFECT UNTIL 4 PM AKST THIS AFTERNOON NEAR WHITTIER... A BLIZZARD WARNING REMAINS IN EFFECT UNTIL 4 PM AKST THIS AFTERNOON. * LOCATION...NEAR WHITTIER. * SNOW...AN ADDITIONAL 3 TO 6 INCHES OF ACCUMULATION.</summary>
+<cap:event>Blizzard Warning</cap:event>
+<cap:effective>2012-01-08T06:29:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Western Prince William Sound</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002020 002122 002170 002261</value>
+<valueName>UGC</valueName>
+<value>AKZ125</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.CON.PAFC.BZ.W.0009.000000T0000Z-120109T0100Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EF38.WindChillAdvisory.124C93F34C50AK.AFGWSWNSB.d870a67fe3dc0229eb6a2bf64727db01</id>
+<updated>2012-01-08T04:42:00-09:00</updated>
+<published>2012-01-08T04:42:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Chill Advisory issued January 08 at 4:42AM AKST until January 09 at 6:00AM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EF38.WindChillAdvisory.124C93F34C50AK.AFGWSWNSB.d870a67fe3dc0229eb6a2bf64727db01'/>
+<summary>...WIND CHILL ADVISORY NOW IN EFFECT UNTIL 6 AM AKST MONDAY... THE WIND CHILL ADVISORY IS NOW IN EFFECT UNTIL 6 AM AKST MONDAY. * WIND CHILL VALUES...TO 55 BELOW. * WIND...SOUTHWEST WIND 15 TO 25 MPH...EXCEPT 25 TO 40 MPH NEAR CAPE LISBURNE TODAY. * TIMING...THE HARSH WIND CHILLS WILL LIKELY PERSIST INTO AT LEAST</summary>
+<cap:event>Wind Chill Advisory</cap:event>
+<cap:effective>2012-01-08T04:42:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Western Arctic Coast</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002185</value>
+<valueName>UGC</valueName>
+<value>AKZ201</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.EXT.PAFG.WC.Y.0003.000000T0000Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EF38.WindChillAdvisory.124C93F34C50AK.AFGWSWNSB.570b16d9f0f390248f6bb7a624c46ae6</id>
+<updated>2012-01-08T04:42:00-09:00</updated>
+<published>2012-01-08T04:42:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Chill Advisory issued January 08 at 4:42AM AKST until January 09 at 6:00AM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EF38.WindChillAdvisory.124C93F34C50AK.AFGWSWNSB.570b16d9f0f390248f6bb7a624c46ae6'/>
+<summary>...WIND CHILL ADVISORY NOW IN EFFECT UNTIL 6 AM AKST MONDAY... THE WIND CHILL ADVISORY IS NOW IN EFFECT UNTIL 6 AM AKST MONDAY. * WIND CHILL VALUES...TO 55 BELOW. * WIND...SOUTHWEST AROUND 20 MPH. * TIMING...THE HARSH WIND CHILLS WILL LIKELY PERSIST THROUGH AT LEAST MONDAY MORNING.</summary>
+<cap:event>Wind Chill Advisory</cap:event>
+<cap:effective>2012-01-08T04:42:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Central Beaufort Sea Coast</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002185</value>
+<valueName>UGC</valueName>
+<value>AKZ203</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.EXT.PAFG.WC.Y.0003.000000T0000Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EF38.WindChillAdvisory.124C93F34C50AK.AFGWSWNSB.5db2920ecfb5db7075cd213ae5c067c8</id>
+<updated>2012-01-08T04:42:00-09:00</updated>
+<published>2012-01-08T04:42:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Chill Advisory issued January 08 at 4:42AM AKST until January 09 at 6:00AM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EF38.WindChillAdvisory.124C93F34C50AK.AFGWSWNSB.5db2920ecfb5db7075cd213ae5c067c8'/>
+<summary>...WIND CHILL ADVISORY NOW IN EFFECT UNTIL 6 AM AKST MONDAY... THE WIND CHILL ADVISORY IS NOW IN EFFECT UNTIL 6 AM AKST MONDAY. * LOCATION...NORTH OF THE BROOKS RANGE ALONG THE COASTAL PLAIN. * WIND CHILL VALUES...55 BELOW. * WIND...SOUTHWEST WINDS AROUND 15 MPH. * TIMING...THE LOW WIND CHILLS WILL LIKELY PERSIST THROUGH AT</summary>
+<cap:event>Wind Chill Advisory</cap:event>
+<cap:effective>2012-01-08T04:42:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Northwestern Brooks Range</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002185 002188 002290</value>
+<valueName>UGC</valueName>
+<value>AKZ205</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.EXT.PAFG.WC.Y.0003.000000T0000Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.f89802445c8df2f3925f5f2d2239e11d</id>
+<updated>2012-01-08T04:34:00-09:00</updated>
+<published>2012-01-08T04:34:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Chill Advisory issued January 08 at 4:34AM AKST until January 09 at 6:00AM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.f89802445c8df2f3925f5f2d2239e11d'/>
+<summary>...WIND CHILL ADVISORY IN EFFECT FROM NOON TODAY TO 6 AM AKST MONDAY... THE NATIONAL WEATHER SERVICE IN FAIRBANKS HAS ISSUED A WIND CHILL ADVISORY...WHICH IS IN EFFECT FROM NOON TODAY TO 6 AM AKST MONDAY. * LOCATION...NORTH OF KIVALINA.</summary>
+<cap:event>Wind Chill Advisory</cap:event>
+<cap:effective>2012-01-08T04:34:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Chukchi Sea Coast</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002180 002185 002188</value>
+<valueName>UGC</valueName>
+<value>AKZ207</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.NEW.PAFG.WC.Y.0004.120108T2100Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.fe528074d1ff5f2cafa60e7ba1441947</id>
+<updated>2012-01-08T04:34:00-09:00</updated>
+<published>2012-01-08T04:34:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Chill Advisory issued January 08 at 4:34AM AKST until January 09 at 6:00AM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.fe528074d1ff5f2cafa60e7ba1441947'/>
+<summary>...WIND CHILL ADVISORY IN EFFECT FROM 6 PM THIS EVENING TO 6 AM AKST MONDAY... THE NATIONAL WEATHER SERVICE IN FAIRBANKS HAS ISSUED A WIND CHILL ADVISORY...WHICH IS IN EFFECT FROM 6 PM THIS EVENING TO 6 AM AKST MONDAY. * WIND CHILL VALUES...TO 50 BELOW.</summary>
+<cap:event>Wind Chill Advisory</cap:event>
+<cap:effective>2012-01-08T04:34:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Eastern Norton Sound and Nulato Hills</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002180 002270 002290</value>
+<valueName>UGC</valueName>
+<value>AKZ212</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.NEW.PAFG.WC.Y.0004.120109T0300Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.d700ba4ee0dcff041418f0d6bfab2340</id>
+<updated>2012-01-08T04:34:00-09:00</updated>
+<published>2012-01-08T04:34:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Chill Advisory issued January 08 at 4:34AM AKST until January 09 at 6:00AM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.d700ba4ee0dcff041418f0d6bfab2340'/>
+<summary>...WIND CHILL ADVISORY IN EFFECT FROM 6 PM THIS EVENING TO 6 AM AKST MONDAY... THE NATIONAL WEATHER SERVICE IN FAIRBANKS HAS ISSUED A WIND CHILL ADVISORY...WHICH IS IN EFFECT FROM 6 PM THIS EVENING TO 6 AM AKST MONDAY. * LOCATION...ST LAWRENCE ISLAND AS WELL AS THE BERING STRAIT.</summary>
+<cap:event>Wind Chill Advisory</cap:event>
+<cap:effective>2012-01-08T04:34:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>St Lawrence Island and Bering Strait Coast</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002180</value>
+<valueName>UGC</valueName>
+<value>AKZ213</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.NEW.PAFG.WC.Y.0004.120109T0300Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.eac6343b5b2c2b13fdd66106cf2b676e</id>
+<updated>2012-01-08T04:34:00-09:00</updated>
+<published>2012-01-08T04:34:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Chill Advisory issued January 08 at 4:34AM AKST until January 09 at 6:00AM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5EC18.WindChillAdvisory.124C93F34C50AK.AFGWSWWCZ.eac6343b5b2c2b13fdd66106cf2b676e'/>
+<summary>...WIND CHILL ADVISORY IN EFFECT FROM 6 PM THIS EVENING TO 6 AM AKST MONDAY... THE NATIONAL WEATHER SERVICE IN FAIRBANKS HAS ISSUED A WIND CHILL ADVISORY...WHICH IS IN EFFECT FROM 6 PM THIS EVENING TO 6 AM AKST MONDAY. * WIND CHILL VALUES...TO 55 BELOW.</summary>
+<cap:event>Wind Chill Advisory</cap:event>
+<cap:effective>2012-01-08T04:34:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Yukon Delta</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002270</value>
+<valueName>UGC</valueName>
+<value>AKZ214</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.NEW.PAFG.WC.Y.0004.120109T0300Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5E8F8.WinterWeatherAdvisory.124C93F34C50AK.AFGWSWAFG.28ec291428c1628cadcc327aa368fe13</id>
+<updated>2012-01-08T04:26:00-09:00</updated>
+<published>2012-01-08T04:26:00-09:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 4:26AM AKST until January 09 at 6:00PM AKST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AK124C93E5E8F8.WinterWeatherAdvisory.124C93F34C50AK.AFGWSWAFG.28ec291428c1628cadcc327aa368fe13'/>
+<summary>...WINTER WEATHER ADVISORY IN EFFECT FROM 6 PM THIS EVENING TO 6 PM AKST MONDAY... THE NATIONAL WEATHER SERVICE IN FAIRBANKS HAS ISSUED A WINTER WEATHER ADVISORY FOR BLOWING SNOW AND LOW WIND CHILLS...WHICH IS IN EFFECT FROM 6 PM THIS EVENING TO 6 PM AKST MONDAY. * LOCATION...STEESE...ELLIOT...AND DALTON HIGHWAY SUMMITS.</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T04:26:00-09:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-09:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Yukon Flats and Surrounding Uplands</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>002090 002290</value>
+<valueName>UGC</valueName>
+<value>AKZ220</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/X.NEW.PAFG.WW.Y.0003.120109T0300Z-120110T0300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AR124C93E3EBFC.FloodWarning.124C93E635ECAR.LZKFLSLZK.e5c3863f52f70a0beeb2fb188c89c57c</id>
+<updated>2012-01-07T18:23:00-06:00</updated>
+<published>2012-01-07T18:23:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Flood Warning issued January 07 at 6:23PM CST until January 13 at 6:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AR124C93E3EBFC.FloodWarning.124C93E635ECAR.LZKFLSLZK.e5c3863f52f70a0beeb2fb188c89c57c'/>
+<summary>...FROM THE NATIONAL WEATHER SERVICE IN LITTLE ROCK...THE FLOOD WARNING CONTINUES FOR THE FOLLOWING RIVER IN ARKANSAS... WHITE RIVER AT CLARENDON AFFECTING ARKANSAS AND MONROE COUNTIES CACHE RIVER NEAR PATTERSON AFFECTING JACKSON AND WOODRUFF COUNTIES RIVER FORECASTS ARE BASED ON CURRENT CONDITIONS AND RAINFALL FORECASTED TO OCCUR OVER THE NEXT 12 HOURS. DURING PERIODS OF</summary>
+<cap:event>Flood Warning</cap:event>
+<cap:effective>2012-01-07T18:23:00-06:00</cap:effective>
+<cap:expires>2012-01-08T09:23:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Arkansas; Monroe</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>005001 005095</value>
+<valueName>UGC</valueName>
+<value>ARC001 ARC095</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KLZK.FL.W.0080.000000T0000Z-120113T1200Z/
+/CLDA4.1.ER.000000T0000Z.111212T0100Z.120112T0600Z.NO/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AZ124C93E5CDA0.LakeWindAdvisory.124C93E71750AZ.VEFNPWVEF.6a8ae6c00b7ea94ea5ac3294779b8e37</id>
+<updated>2012-01-08T04:56:00-08:00</updated>
+<published>2012-01-08T04:56:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Lake Wind Advisory issued January 08 at 4:56AM PST until January 08 at 6:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AZ124C93E5CDA0.LakeWindAdvisory.124C93E71750AZ.VEFNPWVEF.6a8ae6c00b7ea94ea5ac3294779b8e37'/>
+<summary>...LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM PST /7 PM MST/ THIS EVENING... A LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM PST /7 PM MST/ THIS EVENING FOR LAKE HAVASU AND FORT MOHAVE...THE LAKE MEAD NATIONAL RECREATION AREA...AND SAN BERNARDINO COUNTY UPPER COLORADO RIVER VALLEY.</summary>
+<cap:event>Lake Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:56:00-08:00</cap:effective>
+<cap:expires>2012-01-08T13:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Lake Havasu and Fort Mohave; Lake Mead National Recreation Area</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>004015</value>
+<valueName>UGC</valueName>
+<value>AZZ002 AZZ036</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KVEF.LW.Y.0001.000000T0000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AZ124C93E59240.RedFlagWarning.124C93E6C930AZ.PSRRFWPSR.b21a42c0ad4237d60bf3b2b791edce30</id>
+<updated>2012-01-08T04:04:00-07:00</updated>
+<published>2012-01-08T04:04:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 08 at 4:04AM MST until January 08 at 5:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AZ124C93E59240.RedFlagWarning.124C93E6C930AZ.PSRRFWPSR.b21a42c0ad4237d60bf3b2b791edce30'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM 2 PM MST /1 PM PST/ TO 5 PM MST /4 PM PST/ THIS AFTERNOON FOR STRONG WINDS...LOW RELATIVE HUMIDITY AND VERY HIGH TO EXTREME FIRE DANGER FOR THE LOWER COLORADO RIVER VALLEY... THE NATIONAL WEATHER SERVICE IN PHOENIX HAS ISSUED A RED FLAG WARNING FOR STRONG WINDS...LOW RELATIVE HUMIDITY AND VERY HIGH TO</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-08T04:04:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Yuma, Martinez Lake and Vicinity, Lower Colorado River Valley AZ</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>004012 004027</value>
+<valueName>UGC</valueName>
+<value>AZZ131</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.NEW.KPSR.FW.W.0001.120108T2100Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=AZ124C93E56CC0.WindAdvisory.124C93F32540AZ.PSRNPWPSR.067ac23471ed0d417b6538dcc5cc6617</id>
+<updated>2012-01-08T03:08:00-07:00</updated>
+<published>2012-01-08T03:08:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 3:08AM MST until January 08 at 5:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=AZ124C93E56CC0.WindAdvisory.124C93F32540AZ.PSRNPWPSR.067ac23471ed0d417b6538dcc5cc6617'/>
+<summary>...WIND ADVISORY IN EFFECT UNTIL 5 PM MST /4 PM PST/ THIS AFTERNOON... THE NATIONAL WEATHER SERVICE IN PHOENIX HAS ISSUED A WIND ADVISORY...WHICH IS IN EFFECT UNTIL 5 PM MST /4 PM PST/ THIS AFTERNOON. * AFFECTED AREA...PORTIONS OF THE LOWER COLORADO RIVER VALLEY</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T03:08:00-07:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Lower Colorado River Valley AZ</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>004012</value>
+<valueName>UGC</valueName>
+<value>AZZ020</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXA.KPSR.WI.Y.0001.000000T0000Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5E4AC.SpecialWeatherStatement.124C93E6F040CA.HNXSPSHNX.ea056054046a87f922cee326577c3d38</id>
+<updated>2012-01-08T05:15:00-08:00</updated>
+<published>2012-01-08T05:15:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued January 08 at 5:15AM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5E4AC.SpecialWeatherStatement.124C93E6F040CA.HNXSPSHNX.ea056054046a87f922cee326577c3d38'/>
+<summary>...LOCALLY GUSTY WINDS... SURFACE HIGH PRESSURE OVER THE GREAT BASIN IS PRODUCING AN OFFSHORE FLOW WITH LOCALLY GUSTY NORTHEAST TO EAST WINDS OVER HIGHER ELEVATIONS OF THE SOUTHERN SIERRA NEVADA AND TEHACHAPI MOUNTAINS. IN THE SOUTHERN SIERRA...WINDS WILL BE STRONGEST ALONG THE</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-01-08T05:15:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Indian Wells Valley; Kern County Mountains; Sierra Nevada from Yosemite to Kings Canyon; Tulare County Mountains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006019 006029 006039 006043 006107 006109</value>
+<valueName>UGC</valueName>
+<value>CAZ095 CAZ096 CAZ097 CAZ098</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5CDA0.LakeWindAdvisory.124C93E71750CA.VEFNPWVEF.6a8ae6c00b7ea94ea5ac3294779b8e37</id>
+<updated>2012-01-08T04:56:00-08:00</updated>
+<published>2012-01-08T04:56:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Lake Wind Advisory issued January 08 at 4:56AM PST until January 08 at 6:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5CDA0.LakeWindAdvisory.124C93E71750CA.VEFNPWVEF.6a8ae6c00b7ea94ea5ac3294779b8e37'/>
+<summary>...LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM PST /7 PM MST/ THIS EVENING... A LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM PST /7 PM MST/ THIS EVENING FOR LAKE HAVASU AND FORT MOHAVE...THE LAKE MEAD NATIONAL RECREATION AREA...AND SAN BERNARDINO COUNTY UPPER COLORADO RIVER VALLEY.</summary>
+<cap:event>Lake Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:56:00-08:00</cap:effective>
+<cap:expires>2012-01-08T13:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>San Bernadino County-Upper Colorado River Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006071</value>
+<valueName>UGC</valueName>
+<value>CAZ527</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KVEF.LW.Y.0001.000000T0000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.HighWindWarning.124C93E6FBF8CA.LOXNPWLOX.1f4df529651fcef915f3acf46d34f598</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>High Wind Warning issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.HighWindWarning.124C93E6FBF8CA.LOXNPWLOX.1f4df529651fcef915f3acf46d34f598'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...HIGH WIND WARNING REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>High Wind Warning</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Santa Monica Mountains Recreational Area</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ046</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.HW.W.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.HighWindWarning.124C93E6FBF8CA.LOXNPWLOX.75b2394c9b9786ab6d4df90182a62546</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>High Wind Warning issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.HighWindWarning.124C93E6FBF8CA.LOXNPWLOX.75b2394c9b9786ab6d4df90182a62546'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...HIGH WIND WARNING REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>High Wind Warning</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County Mountains excluding the Santa Monica Range; Ventura County Mountains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037 006111</value>
+<valueName>UGC</valueName>
+<value>CAZ053 CAZ054</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.HW.W.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.HighWindWarning.124C93E6FBF8CA.LOXNPWLOX.a685967efd489115d2c2bfb7eb549ecd</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>High Wind Warning issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.HighWindWarning.124C93E6FBF8CA.LOXNPWLOX.a685967efd489115d2c2bfb7eb549ecd'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...HIGH WIND WARNING REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>High Wind Warning</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Santa Clarita Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ088</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.HW.W.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.9540389f170e90ca19e65fd8b55c6c7a</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.9540389f170e90ca19e65fd8b55c6c7a'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Ventura County Coast</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006111</value>
+<valueName>UGC</valueName>
+<value>CAZ040</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.WI.Y.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.45cb0e2ab360b8385732cb06e2e97338</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.45cb0e2ab360b8385732cb06e2e97338'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County Coast including Downtown Los Angeles</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ041</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.WI.Y.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.66af7e7e0fcb70387c2ce5a95748ad64</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.66af7e7e0fcb70387c2ce5a95748ad64'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Ventura County Coastal Valleys; Ventura County Interior Valleys</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006111</value>
+<valueName>UGC</valueName>
+<value>CAZ044 CAZ045</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.WI.Y.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.fedffb973fb1654fcf9f4ee204cfcd32</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.fedffb973fb1654fcf9f4ee204cfcd32'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County San Fernando Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ547</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.WI.Y.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.f4007f63319f24ec0dab71d813d7ef52</id>
+<updated>2012-01-08T04:18:00-08:00</updated>
+<published>2012-01-08T04:18:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 4:18AM PST until January 08 at 3:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E5BEC8.WindAdvisory.124C93E6FBF8CA.LOXNPWLOX.f4007f63319f24ec0dab71d813d7ef52'/>
+<summary>...MODERATE TO STRONG OFFSHORE WINDS EXPECTED FOR LOS ANGELES AND VENTURA COUNTIES TONIGHT AND SUNDAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN WILL PRODUCE STRONG AND POTENTIALLY DAMAGING OFFSHORE WINDS ACROSS THE REGION TODAY. OFFSHORE FLOW WILL WEAKEN TONIGHT INTO MONDAY. ...WIND ADVISORY REMAINS IN EFFECT UNTIL 3 PM PST THIS</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:18:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County San Gabriel Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ548</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLOX.WI.Y.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59C68.RedFlagWarning.124C93E6F040CA.STORFWSTO.c8592ef14844a6866e76ea30957ab49d</id>
+<updated>2012-01-08T03:30:00-08:00</updated>
+<published>2012-01-08T03:30:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 08 at 3:30AM PST until January 08 at 12:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59C68.RedFlagWarning.124C93E6F040CA.STORFWSTO.c8592ef14844a6866e76ea30957ab49d'/>
+<summary>...RED FLAG WARNING REMAINS IN EFFECT UNTIL NOON PST TODAY FOR GUSTY WINDS AND LOW HUMIDITY FOR FIRE WEATHER ZONES 220...266... 267 AND 268... * AFFECTED AREA: IN CALIFORNIA ABOVE 2000 FEET...FIRE ZONE 220 SOUTHERN MOTHERLODE. INCLUDES PORTIONS OF CALAVERAS-TUOLUMNE UNIT...FIRE ZONE 266 NORTHERN SIERRA FOOTHILLS. INCLUDES</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-08T03:30:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Northern Motherlode From 1000 to 3000 Ft. From Yuba To Amador Counties; Northern Sierra Foothills from 1000 to 3000 Ft. Includes Nevada-Yuba-Placer RU and Anador-Eldorado RU; Northern Sierra Including Lassen NP and Plumas and Lassen NF, S West of the Sierra Crest - West of Evans Peak, Grizzly Peak, Beckworth Peak; Southern Motherlode From 1000 to 3000 Ft, Calaveras and Toulumne Counties</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006005 006007 006009 006017 006035 006057 006061 006063 006089 006103 006109 006115</value>
+<valueName>UGC</valueName>
+<value>CAZ220 CAZ266 CAZ267 CAZ268</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSTO.FW.W.0001.000000T0000Z-120108T2000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59C68.RedFlagWarning.124C93E6F040CA.STORFWSTO.6c23132a85576bd7d0544274fe76ba63</id>
+<updated>2012-01-08T03:30:00-08:00</updated>
+<published>2012-01-08T03:30:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 08 at 3:30AM PST until January 08 at 12:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59C68.RedFlagWarning.124C93E6F040CA.STORFWSTO.6c23132a85576bd7d0544274fe76ba63'/>
+<summary>...RED FLAG WARNING REMAINS IN EFFECT UNTIL NOON PST TODAY FOR GUSTY WINDS AND LOW HUMIDITY FOR FIRE WEATHER ZONES 221 AND 269... * AFFECTED AREA: IN CALIFORNIA...FIRE ZONE 221 STANISLAUS NF WEST OF THE SIERRA CREST...FIRE ZONE 269 NORTHERN SIERRA INCLUDING THE TAHOE AND ELDORADO NF/S WEST OF THE SIERRA CREST.</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-08T03:30:00-08:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Stanislaus National Forest; Tahoe - Eldorado National Forest</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006003 006005 006009 006017 006057 006061 006091 006109 006115</value>
+<valueName>UGC</valueName>
+<value>CAZ221 CAZ269</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSTO.FW.W.0001.000000T0000Z-120108T2000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59434.RedFlagWarning.124C93F37360CA.SGXRFWSGX.0c26e2e62c440272619a115bc1398d8c</id>
+<updated>2012-01-08T03:09:00-08:00</updated>
+<published>2012-01-08T03:09:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 08 at 3:09AM PST until January 08 at 6:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59434.RedFlagWarning.124C93F37360CA.SGXRFWSGX.0c26e2e62c440272619a115bc1398d8c'/>
+<summary>...RED FLAG WARNING FROM 8 AM TO 6 PM TODAY FOR ORANGE COUNTY COASTAL AREAS...THE SANTA ANA MOUNTAINS...THE INLAND EMPIRE...AND THE SAN BERNARDINO COUNTY MOUNTAINS FOR STRONG GUSTY WINDS AND LOW RELATIVE HUMIDITIES... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN AND UPPER LEVEL LOW PRESSURE OVER THE SOUTHERN ROCKIES WILL BRING MODERATE TO STRONG</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-08T03:09:00-08:00</cap:effective>
+<cap:expires>2012-01-08T18:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Orange County Coastal Areas; San Bernardino County Mountains-Including The Mountain Top And Front Country Ranger Districts Of The San Bernardino National Forest; San Bernardino and Riverside County Valleys - The Inland Empire; Santa Ana Mountains-Including The Trabuco Ranger District of the Cleveland National Forest</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006059 006065 006071 006073</value>
+<valueName>UGC</valueName>
+<value>CAZ242 CAZ248 CAZ255 CAZ257</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSGX.FW.W.0001.120108T1600Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.HighWindWarning.124C93E6CF0CCA.SGXNPWSGX.989ef4926cbf70b3a5db2a7c49030f0c</id>
+<updated>2012-01-08T03:05:00-08:00</updated>
+<published>2012-01-08T03:05:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>High Wind Warning issued January 08 at 3:05AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.HighWindWarning.124C93E6CF0CCA.SGXNPWSGX.989ef4926cbf70b3a5db2a7c49030f0c'/>
+<summary>...STRONG GUSTY NORTHEAST WINDS EXPECTED THROUGH AND BELOW PASSES AND CANYONS TODAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN AND UPPER LEVEL LOW PRESSURE OVER THE SOUTHERN ROCKIES WILL BRING MODERATE TO STRONG NORTHEAST TO EAST WINDS TO THE INLAND AREAS TODAY WITH STRONGEST WINDS THROUGH AND BELOW PASSES AND CANYONS. NORTHEAST WINDS WILL</summary>
+<cap:event>High Wind Warning</cap:event>
+<cap:effective>2012-01-08T03:05:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:15:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Orange County Coastal Areas; San Bernardino County Mountains; San Bernardino and Riverside County Valleys -The Inland Empire; Santa Ana Mountains and Foothills</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006059 006065 006071 006073</value>
+<valueName>UGC</valueName>
+<value>CAZ042 CAZ048 CAZ055 CAZ057</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSGX.HW.W.0001.000000T0000Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.HighWindWarning.124C93E6CF0CCA.SGXNPWSGX.45f173196d6d5851c33a75a97c5c4498</id>
+<updated>2012-01-08T03:05:00-08:00</updated>
+<published>2012-01-08T03:05:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>High Wind Warning issued January 08 at 3:05AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.HighWindWarning.124C93E6CF0CCA.SGXNPWSGX.45f173196d6d5851c33a75a97c5c4498'/>
+<summary>...STRONG GUSTY NORTHEAST WINDS EXPECTED THROUGH AND BELOW PASSES AND CANYONS TODAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN AND UPPER LEVEL LOW PRESSURE OVER THE SOUTHERN ROCKIES WILL BRING MODERATE TO STRONG NORTHEAST TO EAST WINDS TO THE INLAND AREAS TODAY WITH STRONGEST WINDS THROUGH AND BELOW PASSES AND CANYONS. NORTHEAST WINDS WILL</summary>
+<cap:event>High Wind Warning</cap:event>
+<cap:effective>2012-01-08T03:05:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:15:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Riverside County Mountains; San Diego County Mountains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006065 006073</value>
+<valueName>UGC</valueName>
+<value>CAZ056 CAZ058</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSGX.HW.W.0001.000000T0000Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.WindAdvisory.124C93E6CF0CCA.SGXNPWSGX.09f4c89e8f3cf848c6d625ae65daf8b3</id>
+<updated>2012-01-08T03:05:00-08:00</updated>
+<published>2012-01-08T03:05:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 3:05AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.WindAdvisory.124C93E6CF0CCA.SGXNPWSGX.09f4c89e8f3cf848c6d625ae65daf8b3'/>
+<summary>...STRONG GUSTY NORTHEAST WINDS EXPECTED THROUGH AND BELOW PASSES AND CANYONS TODAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN AND UPPER LEVEL LOW PRESSURE OVER THE SOUTHERN ROCKIES WILL BRING MODERATE TO STRONG NORTHEAST TO EAST WINDS TO THE INLAND AREAS TODAY WITH STRONGEST WINDS THROUGH AND BELOW PASSES AND CANYONS. NORTHEAST WINDS WILL</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T03:05:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:15:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>San Diego County Valleys</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006073</value>
+<valueName>UGC</valueName>
+<value>CAZ050</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSGX.WI.Y.0001.000000T0000Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.WindAdvisory.124C93E6CF0CCA.SGXNPWSGX.2f72c07322da6d940985be083427fe9f</id>
+<updated>2012-01-08T03:05:00-08:00</updated>
+<published>2012-01-08T03:05:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 3:05AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E592A4.WindAdvisory.124C93E6CF0CCA.SGXNPWSGX.2f72c07322da6d940985be083427fe9f'/>
+<summary>...STRONG GUSTY NORTHEAST WINDS EXPECTED THROUGH AND BELOW PASSES AND CANYONS TODAY... .SURFACE HIGH PRESSURE OVER THE GREAT BASIN AND UPPER LEVEL LOW PRESSURE OVER THE SOUTHERN ROCKIES WILL BRING MODERATE TO STRONG NORTHEAST TO EAST WINDS TO THE INLAND AREAS TODAY WITH STRONGEST WINDS THROUGH AND BELOW PASSES AND CANYONS. NORTHEAST WINDS WILL</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T03:05:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:15:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Coachella Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006065</value>
+<valueName>UGC</valueName>
+<value>CAZ061</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSGX.WI.Y.0001.000000T0000Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59240.RedFlagWarning.124C93E6C930CA.PSRRFWPSR.b21a42c0ad4237d60bf3b2b791edce30</id>
+<updated>2012-01-08T04:04:00-07:00</updated>
+<published>2012-01-08T04:04:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 08 at 4:04AM MST until January 08 at 5:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E59240.RedFlagWarning.124C93E6C930CA.PSRRFWPSR.b21a42c0ad4237d60bf3b2b791edce30'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM 2 PM MST /1 PM PST/ TO 5 PM MST /4 PM PST/ THIS AFTERNOON FOR STRONG WINDS...LOW RELATIVE HUMIDITY AND VERY HIGH TO EXTREME FIRE DANGER FOR THE LOWER COLORADO RIVER VALLEY... THE NATIONAL WEATHER SERVICE IN PHOENIX HAS ISSUED A RED FLAG WARNING FOR STRONG WINDS...LOW RELATIVE HUMIDITY AND VERY HIGH TO</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-08T04:04:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Lower Colorado River Valley CA</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006025 006065</value>
+<valueName>UGC</valueName>
+<value>CAZ231</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.NEW.KPSR.FW.W.0001.120108T2100Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E56CC0.WindAdvisory.124C93F32540CA.PSRNPWPSR.780434f88dd6b1b40881c8b460eb50e4</id>
+<updated>2012-01-08T03:08:00-07:00</updated>
+<published>2012-01-08T03:08:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 3:08AM MST until January 08 at 5:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E56CC0.WindAdvisory.124C93F32540CA.PSRNPWPSR.780434f88dd6b1b40881c8b460eb50e4'/>
+<summary>...WIND ADVISORY REMAINS IN EFFECT UNTIL 4 PM PST THIS AFTERNOON... A WIND ADVISORY REMAINS IN EFFECT UNTIL 4 PM PST THIS AFTERNOON. * AFFECTED AREA...PORTIONS OF EASTERN RIVERSIDE COUNTY INCLUDING JOSHUA TREE NATIONAL PARK...DESERT CENTER...AND EAGLE MOUNTAIN AS WELL AS INTERSTATE 10 FROM DESERT CENTER WEST TO INDIO.</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T03:08:00-07:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Joshua Tree National Park; Riverside County, Eastern Deserts</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006065 006071</value>
+<valueName>UGC</valueName>
+<value>CAZ030 CAZ032</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KPSR.WI.Y.0001.000000T0000Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E56CC0.WindAdvisory.124C93F32540CA.PSRNPWPSR.067ac23471ed0d417b6538dcc5cc6617</id>
+<updated>2012-01-08T03:08:00-07:00</updated>
+<published>2012-01-08T03:08:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 3:08AM MST until January 08 at 5:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93E56CC0.WindAdvisory.124C93F32540CA.PSRNPWPSR.067ac23471ed0d417b6538dcc5cc6617'/>
+<summary>...WIND ADVISORY IN EFFECT UNTIL 5 PM MST /4 PM PST/ THIS AFTERNOON... THE NATIONAL WEATHER SERVICE IN PHOENIX HAS ISSUED A WIND ADVISORY...WHICH IS IN EFFECT UNTIL 5 PM MST /4 PM PST/ THIS AFTERNOON. * AFFECTED AREA...PORTIONS OF THE LOWER COLORADO RIVER VALLEY</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T03:08:00-07:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Imperial County; Lower Colorado River Valley CA</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006025 006065</value>
+<valueName>UGC</valueName>
+<value>CAZ031 CAZ033</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXA.KPSR.WI.Y.0001.000000T0000Z-120109T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.490faaf739b294007b00a5e3b4e857e6</id>
+<updated>2012-01-07T10:48:00-08:00</updated>
+<published>2012-01-07T10:48:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 07 at 10:48AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.490faaf739b294007b00a5e3b4e857e6'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM TONIGHT THROUGH SUNDAY FOR GUSTY NORTHEAST WINDS AND LOW RELATIVE HUMIDITY FOR MUCH OF LOS ANGELES AND VENTURA COUNTIES... .SURFACE HIGH PRESSURE BUILDING INTO THE GREAT BASIN THROUGH TONIGHT INTO SUNDAY MORNING...BRINGING A MODERATE TO LOCALLY STRONG SANTA ANA WIND EVENT ACROSS SOUTHERN CALIFORNIA. WINDS ARE</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-07T10:48:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County Coast including Downtown Los Angeles; Ventura County Coasts</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037 006083 006111</value>
+<valueName>UGC</valueName>
+<value>CAZ240 CAZ241</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KLOX.FW.A.0001.120108T1000Z-120109T0000Z/
+/O.NEW.KLOX.FW.W.0001.120108T1000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.3374bd494433e5a1785df965a1647d0e</id>
+<updated>2012-01-07T10:48:00-08:00</updated>
+<published>2012-01-07T10:48:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 07 at 10:48AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.3374bd494433e5a1785df965a1647d0e'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM TONIGHT THROUGH SUNDAY FOR GUSTY NORTHEAST WINDS AND LOW RELATIVE HUMIDITY FOR MUCH OF LOS ANGELES AND VENTURA COUNTIES... .SURFACE HIGH PRESSURE BUILDING INTO THE GREAT BASIN THROUGH TONIGHT INTO SUNDAY MORNING...BRINGING A MODERATE TO LOCALLY STRONG SANTA ANA WIND EVENT ACROSS SOUTHERN CALIFORNIA. WINDS ARE</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-07T10:48:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Ventura County Coastal Valleys; Ventura County Interior Valleys</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006111</value>
+<valueName>UGC</valueName>
+<value>CAZ244 CAZ245</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KLOX.FW.A.0001.120108T1000Z-120109T0000Z/
+/O.NEW.KLOX.FW.W.0001.120108T1000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.f1338e9161941214c3e156614e1b1a35</id>
+<updated>2012-01-07T10:48:00-08:00</updated>
+<published>2012-01-07T10:48:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 07 at 10:48AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.f1338e9161941214c3e156614e1b1a35'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM TONIGHT THROUGH SUNDAY FOR GUSTY NORTHEAST WINDS AND LOW RELATIVE HUMIDITY FOR MUCH OF LOS ANGELES AND VENTURA COUNTIES... .SURFACE HIGH PRESSURE BUILDING INTO THE GREAT BASIN THROUGH TONIGHT INTO SUNDAY MORNING...BRINGING A MODERATE TO LOCALLY STRONG SANTA ANA WIND EVENT ACROSS SOUTHERN CALIFORNIA. WINDS ARE</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-07T10:48:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Santa Monica Mountains Recreational Area</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ246</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KLOX.FW.A.0001.120108T1000Z-120109T0000Z/
+/O.NEW.KLOX.FW.W.0001.120108T1000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.b3b72bf2b3980f7f3df56eb2c528fa33</id>
+<updated>2012-01-07T10:48:00-08:00</updated>
+<published>2012-01-07T10:48:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 07 at 10:48AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.b3b72bf2b3980f7f3df56eb2c528fa33'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM TONIGHT THROUGH SUNDAY FOR GUSTY NORTHEAST WINDS AND LOW RELATIVE HUMIDITY FOR MUCH OF LOS ANGELES AND VENTURA COUNTIES... .SURFACE HIGH PRESSURE BUILDING INTO THE GREAT BASIN THROUGH TONIGHT INTO SUNDAY MORNING...BRINGING A MODERATE TO LOCALLY STRONG SANTA ANA WIND EVENT ACROSS SOUTHERN CALIFORNIA. WINDS ARE</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-07T10:48:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County Mountains, Angeles National Forest; Ventura County Mountains, Los Padres National Forest</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037 006111</value>
+<valueName>UGC</valueName>
+<value>CAZ253 CAZ254</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KLOX.FW.A.0001.120108T0600Z-120109T0000Z/
+/O.NEW.KLOX.FW.W.0001.120108T0600Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.2f0cd7b74393902f770164d5f69be01e</id>
+<updated>2012-01-07T10:48:00-08:00</updated>
+<published>2012-01-07T10:48:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 07 at 10:48AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.2f0cd7b74393902f770164d5f69be01e'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM TONIGHT THROUGH SUNDAY FOR GUSTY NORTHEAST WINDS AND LOW RELATIVE HUMIDITY FOR MUCH OF LOS ANGELES AND VENTURA COUNTIES... .SURFACE HIGH PRESSURE BUILDING INTO THE GREAT BASIN THROUGH TONIGHT INTO SUNDAY MORNING...BRINGING A MODERATE TO LOCALLY STRONG SANTA ANA WIND EVENT ACROSS SOUTHERN CALIFORNIA. WINDS ARE</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-07T10:48:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Santa Clarita Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ288</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KLOX.FW.A.0001.120108T1000Z-120109T0000Z/
+/O.NEW.KLOX.FW.W.0001.120108T1000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.ebbd90ccaeb7241da56529fb55fa5948</id>
+<updated>2012-01-07T10:48:00-08:00</updated>
+<published>2012-01-07T10:48:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 07 at 10:48AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.ebbd90ccaeb7241da56529fb55fa5948'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM TONIGHT THROUGH SUNDAY FOR GUSTY NORTHEAST WINDS AND LOW RELATIVE HUMIDITY FOR MUCH OF LOS ANGELES AND VENTURA COUNTIES... .SURFACE HIGH PRESSURE BUILDING INTO THE GREAT BASIN THROUGH TONIGHT INTO SUNDAY MORNING...BRINGING A MODERATE TO LOCALLY STRONG SANTA ANA WIND EVENT ACROSS SOUTHERN CALIFORNIA. WINDS ARE</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-07T10:48:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County San Fernando Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ547</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KLOX.FW.A.0001.120108T1000Z-120109T0000Z/
+/O.NEW.KLOX.FW.W.0001.120108T1000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.ced6ea63f9280ea99d29afaaccb4a8f0</id>
+<updated>2012-01-07T10:48:00-08:00</updated>
+<published>2012-01-07T10:48:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Red Flag Warning issued January 07 at 10:48AM PST until January 08 at 4:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=CA124C93D772A0.RedFlagWarning.124C93E6C930CA.LOXRFWLOX.ced6ea63f9280ea99d29afaaccb4a8f0'/>
+<summary>...RED FLAG WARNING IN EFFECT FROM TONIGHT THROUGH SUNDAY FOR GUSTY NORTHEAST WINDS AND LOW RELATIVE HUMIDITY FOR MUCH OF LOS ANGELES AND VENTURA COUNTIES... .SURFACE HIGH PRESSURE BUILDING INTO THE GREAT BASIN THROUGH TONIGHT INTO SUNDAY MORNING...BRINGING A MODERATE TO LOCALLY STRONG SANTA ANA WIND EVENT ACROSS SOUTHERN CALIFORNIA. WINDS ARE</summary>
+<cap:event>Red Flag Warning</cap:event>
+<cap:effective>2012-01-07T10:48:00-08:00</cap:effective>
+<cap:expires>2012-01-08T11:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Severe</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Los Angeles County San Gabriel Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>006037</value>
+<valueName>UGC</valueName>
+<value>CAZ548</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KLOX.FW.A.0001.120108T1000Z-120109T0000Z/
+/O.NEW.KLOX.FW.W.0001.120108T1000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=FL124C93E6313C.DenseSmokeAdvisory.124C93E659DCFL.JAXNPWJAX.4a458eddf94ce2490077aa0d7a01bf9d</id>
+<updated>2012-01-08T10:11:00-05:00</updated>
+<published>2012-01-08T10:11:00-05:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Smoke Advisory issued January 08 at 10:11AM EST until January 08 at 11:00AM EST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=FL124C93E6313C.DenseSmokeAdvisory.124C93E659DCFL.JAXNPWJAX.4a458eddf94ce2490077aa0d7a01bf9d'/>
+<summary>...DENSE SMOKE ADVISORY REMAINS IN EFFECT UNTIL 11 AM EST THIS MORNING... * TIMING...THE COMBINATION OF SMOKE AND FOG IN THE WESTERN PART OF PUTNAM COUNTY HAS LED TO NEAR ZERO VISIBILITIES AND EXTREMELY DANGEROUS DRIVING CONDITIONS. PORTIONS OF STATE ROADS 20 AND 21 HAVE BEEN CLOSED...IN ADDITION TO BADEN POWELL</summary>
+<cap:event>Dense Smoke Advisory</cap:event>
+<cap:effective>2012-01-08T10:11:00-05:00</cap:effective>
+<cap:expires>2012-01-08T11:15:00-05:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Putnam</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>012107</value>
+<valueName>UGC</valueName>
+<value>FLZ037</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KJAX.SM.Y.0001.000000T0000Z-120108T1600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=HI124C93E5ECE0.HighSurfAdvisory.124C93F384F4HI.HFOCFWHFO.979d9173607c85c2fc40c3a8e2cf92e1</id>
+<updated>2012-01-08T03:36:00-10:00</updated>
+<published>2012-01-08T03:36:00-10:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>High Surf Advisory issued January 08 at 3:36AM HST until January 09 at 6:00AM HST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=HI124C93E5ECE0.HighSurfAdvisory.124C93F384F4HI.HFOCFWHFO.979d9173607c85c2fc40c3a8e2cf92e1'/>
+<summary>...HIGH SURF ADVISORY FOR NORTH AND WEST FACING SHORES OF KAUAI NIIHAU OAHU AND MOLOKAI AND FOR NORTH FACING SHORES OF MAUI... .A LARGE NORTHWEST SWELL ARRIVING THIS MORNING WILL RISE RAPIDLY...WHICH WILL BOOST SURF HEIGHTS WELL ABOVE THE HIGH SURF ADVISORY CRITERIA ALONG NORTH AND WEST FACING SHORES OF MOST OF THE SMALLER HAWAIIAN ISLANDS.</summary>
+<cap:event>High Surf Advisory</cap:event>
+<cap:effective>2012-01-08T03:36:00-10:00</cap:effective>
+<cap:expires>2012-01-08T16:45:00-10:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Kauai Leeward; Kauai Windward; Maui Central Valley; Maui Windward West; Molokai Leeward; Molokai Windward; Niihau; Oahu Koolau; Oahu North Shore; Waianae Coast; Windward Haleakala</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>015003 015007 015009</value>
+<valueName>UGC</valueName>
+<value>HIZ001 HIZ002 HIZ003 HIZ006 HIZ007 HIZ008 HIZ012 HIZ013 HIZ017 HIZ019 HIZ020</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.PHFO.SU.Y.0003.000000T0000Z-120109T1600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=LA124C93E62E1C.DenseFogAdvisory.124C93E659DCLA.LCHNPWLCH.3d87e84c0017b2e49b6e90ab09261e8f</id>
+<updated>2012-01-08T09:03:00-06:00</updated>
+<published>2012-01-08T09:03:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Fog Advisory issued January 08 at 9:03AM CST until January 08 at 10:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=LA124C93E62E1C.DenseFogAdvisory.124C93E659DCLA.LCHNPWLCH.3d87e84c0017b2e49b6e90ab09261e8f'/>
+<summary>...AREAS OF DENSE FOG OCCURRING THIS MORNING... .VISIBILITY HAS IMPROVED ACROSS MOST OF THE AREA...BUT AREAS OF DENSE FOG CONTINUE ACROSS EAST TEXAS AND EXTREME SOUTHWEST LOUISIANA. THE ADVISORY HAS BEEN EXTENDED THROUGH 10 AM IN THESE AREAS. ...DENSE FOG ADVISORY NOW IN EFFECT UNTIL 10 AM CST THIS</summary>
+<cap:event>Dense Fog Advisory</cap:event>
+<cap:effective>2012-01-08T09:03:00-06:00</cap:effective>
+<cap:expires>2012-01-08T10:15:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Calcasieu; LAZ073</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>022019</value>
+<valueName>UGC</valueName>
+<value>LAZ041 LAZ073</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KLCH.FG.Y.0003.000000T0000Z-120108T1600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=LA124C93D740A0.FloodWarning.124C93E76D40LA.LIXFLSLIX.6f746fa35f7ad9cba6d4a3ffa5dcafb9</id>
+<updated>2012-01-07T11:20:00-06:00</updated>
+<published>2012-01-07T11:20:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Flood Warning issued January 07 at 11:20AM CST until further notice by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=LA124C93D740A0.FloodWarning.124C93E76D40LA.LIXFLSLIX.6f746fa35f7ad9cba6d4a3ffa5dcafb9'/>
+<summary>...THE FLOOD WARNING CONTINUES FOR THE FOLLOWING RIVERS IN LOUISIANA... THE ATCHAFALAYA RIVER AT MORGAN CITY AFFECTING ST. MARY PARISH THE FLOOD WARNING CONTINUES FOR THE ATCHAFALAYA RIVER AT MORGAN CITY. * UNTIL FURTHER NOTICE.</summary>
+<cap:event>Flood Warning</cap:event>
+<cap:effective>2012-01-07T11:20:00-06:00</cap:effective>
+<cap:expires>2012-01-08T17:20:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>St. Mary</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>022101</value>
+<valueName>UGC</valueName>
+<value>LAC101</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KLIX.FL.W.0073.000000T0000Z-000000T0000Z/
+/MCGL1.1.ER.111214T0140Z.111231T1000Z.000000T0000Z.NO/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=MT124C93E635EC.WinterWeatherAdvisory.124C93E6C930MT.MSOWSWMSO.44ec6c1de38be9a73b4cb51b986b2175</id>
+<updated>2012-01-08T08:23:00-07:00</updated>
+<published>2012-01-08T08:23:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 8:23AM MST until January 08 at 12:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=MT124C93E635EC.WinterWeatherAdvisory.124C93E6C930MT.MSOWSWMSO.44ec6c1de38be9a73b4cb51b986b2175'/>
+<summary>...WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON MST TODAY... A WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON MST TODAY. * IMPACTS/TIMING: SNOW AND INTERMITTENT OF FREEZING DRIZZLE WILL CONTINUE TO CREATE SLICK ROADS AND HAZARDOUS DRIVING CONDITIONS THROUGH NOON.</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T08:23:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Flathead, Mission Valleys; Kootenai, Cabinet Region</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>030029 030031 030047 030067 030089</value>
+<valueName>UGC</valueName>
+<value>MTZ001 MTZ003</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KMSO.WW.Y.0002.000000T0000Z-120108T1900Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=MT124C93E635EC.WinterWeatherAdvisory.124C93E6C930MT.MSOWSWMSO.9a7f4d23ec12a2901d6a3d2c7c52335b</id>
+<updated>2012-01-08T08:23:00-07:00</updated>
+<published>2012-01-08T08:23:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 8:23AM MST until January 08 at 12:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=MT124C93E635EC.WinterWeatherAdvisory.124C93E6C930MT.MSOWSWMSO.9a7f4d23ec12a2901d6a3d2c7c52335b'/>
+<summary>...WINTER WEATHER ADVISORY IN EFFECT UNTIL NOON MST TODAY... THE NATIONAL WEATHER SERVICE IN MISSOULA HAS ISSUED A WINTER WEATHER ADVISORY FOR SNOW AND FREEZING DRIZZLE...WHICH IS IN EFFECT UNTIL NOON MST TODAY. * IMPACTS/TIMING: SNOW AND INTERMITTENT FREEZING DRIZZLE WILL CONTINUE TO CREATE SLICK ROADS AND HAZARDOUS DRIVING CONDITIONS</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T08:23:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Blackfoot Region; West Glacier, Bob Marshall Region</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>030029 030039 030047 030063 030077</value>
+<valueName>UGC</valueName>
+<value>MTZ002 MTZ043</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXA.KMSO.WW.Y.0002.000000T0000Z-120108T1900Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=MT124C93E635EC.WinterWeatherAdvisory.124C93E6C930MT.MSOWSWMSO.4a7717361b8383c226a7bb3faae452da</id>
+<updated>2012-01-08T08:23:00-07:00</updated>
+<published>2012-01-08T08:23:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 8:23AM MST until January 08 at 12:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=MT124C93E635EC.WinterWeatherAdvisory.124C93E6C930MT.MSOWSWMSO.4a7717361b8383c226a7bb3faae452da'/>
+<summary>...WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON MST TODAY... A WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL NOON MST TODAY. * IMPACTS/TIMING: SNOW AND INTERMITTENT FREEZING DRIZZLE WILL CONTINUE TO CREATE SLICK ROADS AND HAZARDOUS DRIVING CONDITIONS THROUGH NOON.</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T08:23:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Lower Clark Fork Region; Missoula, Bitterroot Valleys</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>030061 030063 030081 030089</value>
+<valueName>UGC</valueName>
+<value>MTZ004 MTZ005</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KMSO.WW.Y.0002.000000T0000Z-120108T1900Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E62CF0.WinterStormWarning.124C93E76570NM.MAFWSWMAF.a453bd9397b9a959d92bae0c705cf027</id>
+<updated>2012-01-08T09:00:00-06:00</updated>
+<published>2012-01-08T09:00:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 9:00AM CST until January 09 at 6:00PM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E62CF0.WinterStormWarning.124C93E76570NM.MAFWSWMAF.a453bd9397b9a959d92bae0c705cf027'/>
+<summary>...HIGH IMPACT POSSIBLY RECORD SETTING SNOWS ARE BECOMING MORE LIKELY FROM SUNDAY NIGHT INTO MONDAY EVENING... .ANOTHER STORM SYSTEM IS TAKING A SOUTHWARD TRACK ACROSS THE FOUR CORNERS TODAY AND WILL MOVE EAST INTO TEXAS ON MONDAY BRINGING PERIODS OF HEAVY SNOW TO SOUTHEAST NEW MEXICO AND PARTS OF WEST TEXAS. SNOW WILL INITIALLY DEVELOP IN THE FAR WEST TONIGHT THEN</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T09:00:00-06:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Eddy County Plains; Guadalupe Mountains of Eddy County</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035015</value>
+<valueName>UGC</valueName>
+<value>NMZ027 NMZ028</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KMAF.WS.W.0001.120109T0000Z-120110T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E62CF0.WinterStormWarning.124C93E76570NM.MAFWSWMAF.5f985a0d8ba77eb59a948bcb521236fe</id>
+<updated>2012-01-08T09:00:00-06:00</updated>
+<published>2012-01-08T09:00:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 9:00AM CST until January 10 at 12:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E62CF0.WinterStormWarning.124C93E76570NM.MAFWSWMAF.5f985a0d8ba77eb59a948bcb521236fe'/>
+<summary>...HIGH IMPACT POSSIBLY RECORD SETTING SNOWS ARE BECOMING MORE LIKELY FROM SUNDAY NIGHT INTO MONDAY EVENING... .ANOTHER STORM SYSTEM IS TAKING A SOUTHWARD TRACK ACROSS THE FOUR CORNERS TODAY AND WILL MOVE EAST INTO TEXAS ON MONDAY BRINGING PERIODS OF HEAVY SNOW TO SOUTHEAST NEW MEXICO AND PARTS OF WEST TEXAS. SNOW WILL INITIALLY DEVELOP IN THE FAR WEST TONIGHT THEN</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T09:00:00-06:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Central Lea County; Northern Lea County; Southern Lea County</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035025</value>
+<valueName>UGC</valueName>
+<value>NMZ029 NMZ033 NMZ034</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KMAF.WS.W.0001.120109T0600Z-120110T0600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterStormWarning.124C93E6F61CNM.EPZWSWEPZ.29c9df264214667a618df626336b4979</id>
+<updated>2012-01-08T06:31:00-07:00</updated>
+<published>2012-01-08T06:31:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 6:31AM MST until January 09 at 11:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterStormWarning.124C93E6F61CNM.EPZWSWEPZ.29c9df264214667a618df626336b4979'/>
+<summary>...A WINTER STORM WILL SWEEP ACROSS SOUTHERN NEW MEXICO AND FAR WEST TEXAS THIS AFTERNOON THROUGH MONDAY... .A WINTER STORM SYSTEM CONTINUES TO ORGANIZE OVER THE DESERT SOUTHWEST. THE UPPER LOW DRIVING THE SYSTEM IS NOW OVER CENTRAL ARIZONA AND WILL MOVE TO NEAR THE NEW MEXICO BOOTHEEL THIS AFTERNOON. SHOWERS AND HIGH ELEVATION SNOW WILL DEVELOP BY THIS AFTERNOON</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T06:31:00-07:00</cap:effective>
+<cap:expires>2012-01-08T13:15:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Southern Sacramento Mountains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035035</value>
+<valueName>UGC</valueName>
+<value>NMZ025</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KEPZ.WS.W.0001.120109T0000Z-120109T1800Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CNM.EPZWSWEPZ.76004c02827a0dac5cb408a4231b60d0</id>
+<updated>2012-01-08T06:31:00-07:00</updated>
+<published>2012-01-08T06:31:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 6:31AM MST until January 09 at 7:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CNM.EPZWSWEPZ.76004c02827a0dac5cb408a4231b60d0'/>
+<summary>...A WINTER STORM WILL SWEEP ACROSS SOUTHERN NEW MEXICO AND FAR WEST TEXAS THIS AFTERNOON THROUGH MONDAY... .A WINTER STORM SYSTEM CONTINUES TO ORGANIZE OVER THE DESERT SOUTHWEST. THE UPPER LOW DRIVING THE SYSTEM IS NOW OVER CENTRAL ARIZONA AND WILL MOVE TO NEAR THE NEW MEXICO BOOTHEEL THIS AFTERNOON. SHOWERS AND HIGH ELEVATION SNOW WILL DEVELOP BY THIS AFTERNOON</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T06:31:00-07:00</cap:effective>
+<cap:expires>2012-01-08T13:15:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Southwest Mountains, Lower Gila Region</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035017 035023 035051</value>
+<valueName>UGC</valueName>
+<value>NMZ022</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KEPZ.WW.Y.0001.120109T0000Z-120109T1400Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CNM.EPZWSWEPZ.5d6dc89d324c49868fb137020725f84c</id>
+<updated>2012-01-08T06:31:00-07:00</updated>
+<published>2012-01-08T06:31:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 6:31AM MST until January 09 at 8:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CNM.EPZWSWEPZ.5d6dc89d324c49868fb137020725f84c'/>
+<summary>...A WINTER STORM WILL SWEEP ACROSS SOUTHERN NEW MEXICO AND FAR WEST TEXAS THIS AFTERNOON THROUGH MONDAY... .A WINTER STORM SYSTEM CONTINUES TO ORGANIZE OVER THE DESERT SOUTHWEST. THE UPPER LOW DRIVING THE SYSTEM IS NOW OVER CENTRAL ARIZONA AND WILL MOVE TO NEAR THE NEW MEXICO BOOTHEEL THIS AFTERNOON. SHOWERS AND HIGH ELEVATION SNOW WILL DEVELOP BY THIS AFTERNOON</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T06:31:00-07:00</cap:effective>
+<cap:expires>2012-01-08T13:15:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Sierra County Lakes Region; Tularosa Basin, Southern Desert</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035013 035035 035051</value>
+<valueName>UGC</valueName>
+<value>NMZ023 NMZ024</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KEPZ.WW.Y.0001.120109T0100Z-120109T1500Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CNM.EPZWSWEPZ.4b937df1966fc9f7312b4ceb9ff83746</id>
+<updated>2012-01-08T06:31:00-07:00</updated>
+<published>2012-01-08T06:31:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 6:31AM MST until January 09 at 12:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CNM.EPZWSWEPZ.4b937df1966fc9f7312b4ceb9ff83746'/>
+<summary>...A WINTER STORM WILL SWEEP ACROSS SOUTHERN NEW MEXICO AND FAR WEST TEXAS THIS AFTERNOON THROUGH MONDAY... .A WINTER STORM SYSTEM CONTINUES TO ORGANIZE OVER THE DESERT SOUTHWEST. THE UPPER LOW DRIVING THE SYSTEM IS NOW OVER CENTRAL ARIZONA AND WILL MOVE TO NEAR THE NEW MEXICO BOOTHEEL THIS AFTERNOON. SHOWERS AND HIGH ELEVATION SNOW WILL DEVELOP BY THIS AFTERNOON</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T06:31:00-07:00</cap:effective>
+<cap:expires>2012-01-08T13:15:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Southern Desert</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035013</value>
+<valueName>UGC</valueName>
+<value>NMZ032</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXB.KEPZ.WW.Y.0001.120109T0600Z-120109T1900Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterStormWarning.124C93E6C930NM.ABQWSWABQ.6ce9843a0446480d76306159822618fe</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 4:09AM MST until January 09 at 6:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterStormWarning.124C93E6C930NM.ABQWSWABQ.6ce9843a0446480d76306159822618fe'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Southwest Mountains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035003 035053</value>
+<valueName>UGC</valueName>
+<value>NMZ508</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KABQ.WS.W.0001.120108T1300Z-120109T1300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterStormWarning.124C93E6C930NM.ABQWSWABQ.ee5d24aad6f3bf119900eacd2ea46c79</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 4:09AM MST until January 09 at 6:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterStormWarning.124C93E6C930NM.ABQWSWABQ.ee5d24aad6f3bf119900eacd2ea46c79'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Central Highlands; Eastern Lincoln County; Estancia Valley; Sandia, Manzano Mountains; South Central Highlands; South Central Mountains; Southwest Chaves County</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035001 035005 035027 035043 035047 035049 035053 035057 035061</value>
+<valueName>UGC</valueName>
+<value>NMZ521 NMZ522 NMZ523 NMZ524 NMZ526 NMZ539 NMZ540</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KABQ.WS.W.0001.120108T1300Z-120109T1300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterStormWarning.124C93E6C930NM.ABQWSWABQ.787590425093f1c6c2cb0cae46c835c1</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 4:09AM MST until January 09 at 6:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterStormWarning.124C93E6C930NM.ABQWSWABQ.787590425093f1c6c2cb0cae46c835c1'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Chaves County Plains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035005</value>
+<valueName>UGC</valueName>
+<value>NMZ538</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KABQ.WS.A.0001.120109T0100Z-120110T0100Z/
+/O.EXB.KABQ.WS.W.0001.120109T0100Z-120110T0100Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.aa7517c4efcdf308a26574a6dcec74de</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 4:09AM MST until January 09 at 6:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.aa7517c4efcdf308a26574a6dcec74de'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Guadalupe County; West Central Highlands; West Central Mountains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035001 035003 035006 035019 035031 035043 035053 035061</value>
+<valueName>UGC</valueName>
+<value>NMZ506 NMZ507 NMZ533</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CAN.KABQ.WS.W.0001.120108T1300Z-120109T1300Z/
+/O.EXA.KABQ.WW.Y.0001.120108T1300Z-120109T1300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.355b4f22d64e489dd32bf359d099b6a1</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 4:09AM MST until January 09 at 6:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.355b4f22d64e489dd32bf359d099b6a1'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Jemez Mountains; Lower Chama River Valley; Santa Fe Metro Area</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035001 035028 035039 035043 035049 035055</value>
+<valueName>UGC</valueName>
+<value>NMZ511 NMZ517 NMZ518</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KABQ.WW.Y.0001.120108T1300Z-120109T1300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.5fff1f8d5b661cecbb5fd711e328c4e0</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 4:09AM MST until January 09 at 6:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.5fff1f8d5b661cecbb5fd711e328c4e0'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>East Slopes Sangre de Cristo Mountains; Eastern San Miguel County; Far Northeast Highlands; Harding County; Northeast Highlands; Northern Sangre de Cristos above 9500 feet, Red River; Raton Ridge, Johnson Mesa; Southern Sangre de Cristos above 9500 feet; Union County; West Slopes Sangre de Cristo Mountains</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035007 035021 035033 035039 035047 035049 035055 035059</value>
+<valueName>UGC</valueName>
+<value>NMZ512 NMZ513 NMZ514 NMZ515 NMZ527 NMZ528 NMZ529 NMZ530 NMZ531 NMZ532</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KABQ.WW.Y.0001.120108T1300Z-120109T1300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.ea13e69a3e17093ab71f49d202b889c1</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 4:09AM MST until January 09 at 6:00AM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.ea13e69a3e17093ab71f49d202b889c1'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Lower Rio Grande Valley; Upper Tularosa Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035027 035053</value>
+<valueName>UGC</valueName>
+<value>NMZ520 NMZ525</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KABQ.WW.Y.0001.120108T1300Z-120109T1300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.62afe21be6a6ab9300e95ce3bc1d3403</id>
+<updated>2012-01-08T04:09:00-07:00</updated>
+<published>2012-01-08T04:09:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 4:09AM MST until January 09 at 6:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NM124C93E59434.WinterWeatherAdvisory.124C93E6C930NM.ABQWSWABQ.62afe21be6a6ab9300e95ce3bc1d3403'/>
+<summary>...WINTER STORM IMPACTING NEW MEXICO TODAY INTO MONDAY... .AN UPPER LEVEL LOW PRESSURE SYSTEM OVER ARIZONA WILL DIVE TOWARD THE BOOT HEEL OF NEW MEXICO TODAY...THEN TURN EAST ACROSS WEST TEXAS TONIGHT AND MONDAY. ACCUMULATING SNOWFALL WITH THIS STORM SYSTEM WILL FAVOR THE SOUTHWEST...CENTRAL AND SOUTH CENTRAL MOUNTAINS ONTO THE CENTRAL HIGHLANDS AND CHAVES COUNTY. TRAVEL</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T04:09:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Curry County; De Baca County; Quay County; Roosevelt County</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>035009 035011 035037 035041</value>
+<valueName>UGC</valueName>
+<value>NMZ534 NMZ535 NMZ536 NMZ537</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.UPG.KABQ.WS.A.0001.120109T0100Z-120110T0100Z/
+/O.EXB.KABQ.WW.Y.0001.120109T0100Z-120110T0100Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=NV124C93E5CDA0.LakeWindAdvisory.124C93E71750NV.VEFNPWVEF.6a8ae6c00b7ea94ea5ac3294779b8e37</id>
+<updated>2012-01-08T04:56:00-08:00</updated>
+<published>2012-01-08T04:56:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Lake Wind Advisory issued January 08 at 4:56AM PST until January 08 at 6:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=NV124C93E5CDA0.LakeWindAdvisory.124C93E71750NV.VEFNPWVEF.6a8ae6c00b7ea94ea5ac3294779b8e37'/>
+<summary>...LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM PST /7 PM MST/ THIS EVENING... A LAKE WIND ADVISORY REMAINS IN EFFECT UNTIL 6 PM PST /7 PM MST/ THIS EVENING FOR LAKE HAVASU AND FORT MOHAVE...THE LAKE MEAD NATIONAL RECREATION AREA...AND SAN BERNARDINO COUNTY UPPER COLORADO RIVER VALLEY.</summary>
+<cap:event>Lake Wind Advisory</cap:event>
+<cap:effective>2012-01-08T04:56:00-08:00</cap:effective>
+<cap:expires>2012-01-08T13:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Lake Mead National Recreation Area</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>032003</value>
+<valueName>UGC</valueName>
+<value>NVZ021</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KVEF.LW.Y.0001.000000T0000Z-120109T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=OK124C93E57A08.SpecialWeatherStatement.124C93E73E60OK.AMASPSAMA.25703db9d8af2edcc3dfacd1ee86636d</id>
+<updated>2012-01-08T04:42:00-06:00</updated>
+<published>2012-01-08T04:42:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued January 08 at 4:42AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=OK124C93E57A08.SpecialWeatherStatement.124C93E73E60OK.AMASPSAMA.25703db9d8af2edcc3dfacd1ee86636d'/>
+<summary>...WINTRY WEATHER WILL BE POSSIBLE ACROSS THE PANHANDLES THROUGH TUESDAY... LIGHT SNOW WILL BE POSSIBLE OVER THE OKLAHOMA PANHANDLE AND THE NORTHWEST TEXAS PANHANDLE THROUGH THIS AFTERNOON. THEN...LIGHT SNOW WILL BE POSSIBLE ACROSS THE FAR WESTERN TEXAS PANHANDLE TONIGHT. LIGHT SNOWFALL ACCUMULATIONS OF LESS THAN ONE INCH WILL BE</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-01-08T04:42:00-06:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Beaver; Cimarron; Texas</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>040007 040025 040139</value>
+<valueName>UGC</valueName>
+<value>OKZ001 OKZ002 OKZ003</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=OR124C93E50410.DenseFogAdvisory.124C93E6A220OR.PQRNPWPQR.be32d653478ea324bdd5341c7e4b16a1</id>
+<updated>2012-01-07T23:40:00-08:00</updated>
+<published>2012-01-07T23:40:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Fog Advisory issued January 07 at 11:40PM PST until January 08 at 10:00AM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=OR124C93E50410.DenseFogAdvisory.124C93E6A220OR.PQRNPWPQR.be32d653478ea324bdd5341c7e4b16a1'/>
+<summary>...DENSE FOG ADVISORY IN EFFECT UNTIL 10 AM PST SUNDAY FOR THE WILLAMETTE VALLEY...CLARK COUNTY...INTERSTATE 5 CORRIDOR IN SOUTHWEST WASHINGTON... THE NATIONAL WEATHER SERVICE IN PORTLAND HAS ISSUED A DENSE FOG ADVISORY...WHICH IS IN EFFECT UNTIL 10 AM PST SUNDAY. * VISIBILITY: AT OR BELOW ONE QUARTER OF A MILE. NEAR ZERO AT TIMES.</summary>
+<cap:event>Dense Fog Advisory</cap:event>
+<cap:effective>2012-01-07T23:40:00-08:00</cap:effective>
+<cap:expires>2012-01-08T10:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Central Willamette Valley; Greater Portland Metro Area; Lower Columbia; South Willamette Valley</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>041003 041005 041009 041039 041043 041047 041051 041053 041067 041071</value>
+<valueName>UGC</valueName>
+<value>ORZ005 ORZ006 ORZ007 ORZ008</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.NEW.KPQR.FG.Y.0001.120108T0740Z-120108T1800Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62E1C.DenseFogAdvisory.124C93E659DCTX.LCHNPWLCH.3d87e84c0017b2e49b6e90ab09261e8f</id>
+<updated>2012-01-08T09:03:00-06:00</updated>
+<published>2012-01-08T09:03:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Fog Advisory issued January 08 at 9:03AM CST until January 08 at 10:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62E1C.DenseFogAdvisory.124C93E659DCTX.LCHNPWLCH.3d87e84c0017b2e49b6e90ab09261e8f'/>
+<summary>...AREAS OF DENSE FOG OCCURRING THIS MORNING... .VISIBILITY HAS IMPROVED ACROSS MOST OF THE AREA...BUT AREAS OF DENSE FOG CONTINUE ACROSS EAST TEXAS AND EXTREME SOUTHWEST LOUISIANA. THE ADVISORY HAS BEEN EXTENDED THROUGH 10 AM IN THESE AREAS. ...DENSE FOG ADVISORY NOW IN EFFECT UNTIL 10 AM CST THIS</summary>
+<cap:event>Dense Fog Advisory</cap:event>
+<cap:effective>2012-01-08T09:03:00-06:00</cap:effective>
+<cap:expires>2012-01-08T10:15:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Hardin; Jefferson; Northern Jasper; Northern Newton; Orange; Southern Jasper; Southern Newton; Tyler</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048199 048241 048245 048351 048361 048457</value>
+<valueName>UGC</valueName>
+<value>TXZ180 TXZ201 TXZ215 TXZ216 TXZ259 TXZ260 TXZ261 TXZ262</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KLCH.FG.Y.0003.000000T0000Z-120108T1600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62CF0.WinterStormWarning.124C93E76570TX.MAFWSWMAF.a453bd9397b9a959d92bae0c705cf027</id>
+<updated>2012-01-08T09:00:00-06:00</updated>
+<published>2012-01-08T09:00:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 9:00AM CST until January 09 at 6:00PM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62CF0.WinterStormWarning.124C93E76570TX.MAFWSWMAF.a453bd9397b9a959d92bae0c705cf027'/>
+<summary>...HIGH IMPACT POSSIBLY RECORD SETTING SNOWS ARE BECOMING MORE LIKELY FROM SUNDAY NIGHT INTO MONDAY EVENING... .ANOTHER STORM SYSTEM IS TAKING A SOUTHWARD TRACK ACROSS THE FOUR CORNERS TODAY AND WILL MOVE EAST INTO TEXAS ON MONDAY BRINGING PERIODS OF HEAVY SNOW TO SOUTHEAST NEW MEXICO AND PARTS OF WEST TEXAS. SNOW WILL INITIALLY DEVELOP IN THE FAR WEST TONIGHT THEN</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T09:00:00-06:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Davis, Apache Mountains Area; Guadalupe Mountains; Reeves County and Upper Trans Pecos; Van Horn and Highway 54 Corridor</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048043 048109 048243 048389</value>
+<valueName>UGC</valueName>
+<value>TXZ057 TXZ058 TXZ074 TXZ258</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KMAF.WS.W.0001.120109T0000Z-120110T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62CF0.WinterStormWarning.124C93E76570TX.MAFWSWMAF.5f985a0d8ba77eb59a948bcb521236fe</id>
+<updated>2012-01-08T09:00:00-06:00</updated>
+<published>2012-01-08T09:00:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Warning issued January 08 at 9:00AM CST until January 10 at 12:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62CF0.WinterStormWarning.124C93E76570TX.MAFWSWMAF.5f985a0d8ba77eb59a948bcb521236fe'/>
+<summary>...HIGH IMPACT POSSIBLY RECORD SETTING SNOWS ARE BECOMING MORE LIKELY FROM SUNDAY NIGHT INTO MONDAY EVENING... .ANOTHER STORM SYSTEM IS TAKING A SOUTHWARD TRACK ACROSS THE FOUR CORNERS TODAY AND WILL MOVE EAST INTO TEXAS ON MONDAY BRINGING PERIODS OF HEAVY SNOW TO SOUTHEAST NEW MEXICO AND PARTS OF WEST TEXAS. SNOW WILL INITIALLY DEVELOP IN THE FAR WEST TONIGHT THEN</summary>
+<cap:event>Winter Storm Warning</cap:event>
+<cap:effective>2012-01-08T09:00:00-06:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Andrews; Borden; Crane; Dawson; Ector; Gaines; Glasscock; Howard; Loving; Martin; Midland; Mitchell; Pecos; Reagan; Scurry; Upton; Ward; Winkler</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048003 048033 048103 048115 048135 048165 048173 048227 048301 048317 048329 048335 048371 048383 048415 048461 048475 048495</value>
+<valueName>UGC</valueName>
+<value>TXZ045 TXZ046 TXZ047 TXZ048 TXZ050 TXZ051 TXZ052 TXZ053 TXZ059 TXZ060 TXZ061 TXZ062 TXZ063 TXZ067 TXZ068 TXZ069 TXZ070 TXZ075</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KMAF.WS.W.0001.120109T0600Z-120110T0600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62CF0.WinterWeatherAdvisory.124C93E76570TX.MAFWSWMAF.aac79ce7f54f5c9bd60bc390094e578b</id>
+<updated>2012-01-08T09:00:00-06:00</updated>
+<published>2012-01-08T09:00:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 9:00AM CST until January 09 at 6:00PM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E62CF0.WinterWeatherAdvisory.124C93E76570TX.MAFWSWMAF.aac79ce7f54f5c9bd60bc390094e578b'/>
+<summary>...HIGH IMPACT POSSIBLY RECORD SETTING SNOWS ARE BECOMING MORE LIKELY FROM SUNDAY NIGHT INTO MONDAY EVENING... .ANOTHER STORM SYSTEM IS TAKING A SOUTHWARD TRACK ACROSS THE FOUR CORNERS TODAY AND WILL MOVE EAST INTO TEXAS ON MONDAY BRINGING PERIODS OF HEAVY SNOW TO SOUTHEAST NEW MEXICO AND PARTS OF WEST TEXAS. SNOW WILL INITIALLY DEVELOP IN THE FAR WEST TONIGHT THEN</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T09:00:00-06:00</cap:effective>
+<cap:expires>2012-01-08T17:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Big Bend Area; Marfa Plateau</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048043 048243 048377</value>
+<valueName>UGC</valueName>
+<value>TXZ080 TXZ081</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KMAF.WW.Y.0001.120109T0000Z-120110T0000Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CTX.EPZWSWEPZ.4b937df1966fc9f7312b4ceb9ff83746</id>
+<updated>2012-01-08T06:31:00-07:00</updated>
+<published>2012-01-08T06:31:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 6:31AM MST until January 09 at 12:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CTX.EPZWSWEPZ.4b937df1966fc9f7312b4ceb9ff83746'/>
+<summary>...A WINTER STORM WILL SWEEP ACROSS SOUTHERN NEW MEXICO AND FAR WEST TEXAS THIS AFTERNOON THROUGH MONDAY... .A WINTER STORM SYSTEM CONTINUES TO ORGANIZE OVER THE DESERT SOUTHWEST. THE UPPER LOW DRIVING THE SYSTEM IS NOW OVER CENTRAL ARIZONA AND WILL MOVE TO NEAR THE NEW MEXICO BOOTHEEL THIS AFTERNOON. SHOWERS AND HIGH ELEVATION SNOW WILL DEVELOP BY THIS AFTERNOON</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T06:31:00-07:00</cap:effective>
+<cap:expires>2012-01-08T13:15:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>El Paso</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048141</value>
+<valueName>UGC</valueName>
+<value>TXZ055</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXB.KEPZ.WW.Y.0001.120109T0600Z-120109T1900Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CTX.EPZWSWEPZ.82e305cf38e3d95fe50a2b94004f67d0</id>
+<updated>2012-01-08T06:31:00-07:00</updated>
+<published>2012-01-08T06:31:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Weather Advisory issued January 08 at 6:31AM MST until January 09 at 12:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5EAEC.WinterWeatherAdvisory.124C93E6F61CTX.EPZWSWEPZ.82e305cf38e3d95fe50a2b94004f67d0'/>
+<summary>...A WINTER STORM WILL SWEEP ACROSS SOUTHERN NEW MEXICO AND FAR WEST TEXAS THIS AFTERNOON THROUGH MONDAY... .A WINTER STORM SYSTEM CONTINUES TO ORGANIZE OVER THE DESERT SOUTHWEST. THE UPPER LOW DRIVING THE SYSTEM IS NOW OVER CENTRAL ARIZONA AND WILL MOVE TO NEAR THE NEW MEXICO BOOTHEEL THIS AFTERNOON. SHOWERS AND HIGH ELEVATION SNOW WILL DEVELOP BY THIS AFTERNOON</summary>
+<cap:event>Winter Weather Advisory</cap:event>
+<cap:effective>2012-01-08T06:31:00-07:00</cap:effective>
+<cap:expires>2012-01-08T13:15:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Hudspeth</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048229</value>
+<valueName>UGC</valueName>
+<value>TXZ056</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KEPZ.WW.Y.0001.120109T0600Z-120109T1900Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5E7CC.SpecialWeatherStatement.124C93E686C8TX.EWXSPSEWX.da58d98ae30295c776f9b6422a763c07</id>
+<updated>2012-01-08T07:23:00-06:00</updated>
+<published>2012-01-08T07:23:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued January 08 at 7:23AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5E7CC.SpecialWeatherStatement.124C93E686C8TX.EWXSPSEWX.da58d98ae30295c776f9b6422a763c07'/>
+<summary>...CHANCE OF RAIN AND SHOWERS TONIGHT AND MONDAY... A LOW PRESSURE SYSTEM WILL BRING A GOOD CHANCE OF RAIN AND SHOWERS TO THE HILL COUNTRY AND SOUTH CENTRAL TEXAS TONIGHT AND MONDAY. COOLER DAYTIME HIGHS WILL ACCOMPANY THE RAIN ON MONDAY...IN WAKE OF A COLD FRONT. THIS IS A SIMILAR PATTERN TO THE RAIN EVENTS IN DECEMBER. A CHANCE OF RAIN AND SHOWERS IS</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-01-08T07:23:00-06:00</cap:effective>
+<cap:expires>2012-01-08T11:30:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Atascosa; Bandera; Bastrop; Bexar; Blanco; Burnet; Caldwell; Comal; De Witt; Dimmit; Edwards; Fayette; Frio; Gillespie; Gonzales; Guadalupe; Hays; Karnes; Kendall; Kerr; Kinney; Lavaca; Lee; Llano; Maverick; Medina; Real; Travis; Uvalde; Val Verde; Williamson; Wilson; Zavala</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048013 048019 048021 048029 048031 048053 048055 048091 048123 048127 048137 048149 048163 048171 048177 048187 048209 048255 048259 048265 048271 048285 048287 048299 048323 048325 048385 048453 048463 048465 048491 048493 048507</value>
+<valueName>UGC</valueName>
+<value>TXZ171 TXZ172 TXZ173 TXZ183 TXZ184 TXZ185 TXZ186 TXZ187 TXZ188 TXZ189 TXZ190 TXZ191 TXZ192 TXZ193 TXZ194 TXZ202 TXZ203 TXZ204 TXZ205 TXZ206 TXZ207 TXZ208 TXZ209 TXZ217 TXZ218 TXZ219 TXZ220 TXZ221 TXZ222 TXZ223 TXZ224 TXZ225 TXZ228</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5CECC.SpecialWeatherStatement.124C93E71750TX.CRPSPSCRP.0d85dd50e8e0969bb09bedc88c2b9a9d</id>
+<updated>2012-01-08T06:59:00-06:00</updated>
+<published>2012-01-08T06:59:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued January 08 at 6:59AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5CECC.SpecialWeatherStatement.124C93E71750TX.CRPSPSCRP.0d85dd50e8e0969bb09bedc88c2b9a9d'/>
+<summary>...SCATTERED TO NUMEROUS SHOWERS AND THUNDERSTORMS EXPECTED TONIGHT THROUGH MONDAY... A POTENT UPPER LEVEL DISTURBANCE WILL APPROACH SOUTH TEXAS LATER TODAY...AND IMPACT THE REGION LATE TONIGHT THROUGH MONDAY. PLENTIFUL MOISTURE WILL COMBINE WITH THE DISTURBANCE AND PRODUCE SCATTERED TO NUMEROUS SHOWERS AND THUNDERSTORMS. MOST OF THE</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-01-08T06:59:00-06:00</cap:effective>
+<cap:expires>2012-01-08T15:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Aransas; Bee; Calhoun; Duval; Goliad; Jim Wells; Kleberg; La Salle; Live Oak; McMullen; Nueces; Refugio; San Patricio; Victoria; Webb</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048007 048025 048057 048131 048175 048249 048273 048283 048297 048311 048355 048391 048409 048469 048479</value>
+<valueName>UGC</valueName>
+<value>TXZ229 TXZ230 TXZ231 TXZ232 TXZ233 TXZ234 TXZ239 TXZ240 TXZ241 TXZ242 TXZ243 TXZ244 TXZ245 TXZ246 TXZ247</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5BA7C.DenseFogAdvisory.124C93E65400TX.HGXNPWHGX.dd07b00798a8fad2b0197f8b645c9473</id>
+<updated>2012-01-08T06:07:00-06:00</updated>
+<published>2012-01-08T06:07:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Fog Advisory issued January 08 at 6:07AM CST until January 08 at 10:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5BA7C.DenseFogAdvisory.124C93E65400TX.HGXNPWHGX.dd07b00798a8fad2b0197f8b645c9473'/>
+<summary>...DENSE FOG ADVISORY IN EFFECT... .DENSE SEA FOG HAS DEVELOPED OVER THE NEARSHORE GULF WATERS AND BAYS AND HAS PUSHED INLAND. VISIBILITIES SHOULD GRADUALLY IMPROVE DURING THE MID TO LATE MORNING HOURS...BUT LINGER A BIT LONGER ALONG THE WATERFRONT LOCATIONS. ...DENSE FOG ADVISORY IN EFFECT UNTIL 10 AM CST THIS MORNING...</summary>
+<cap:event>Dense Fog Advisory</cap:event>
+<cap:effective>2012-01-08T06:07:00-06:00</cap:effective>
+<cap:expires>2012-01-08T10:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Fort Bend; Harris; Liberty; Wharton</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048157 048201 048291 048481</value>
+<valueName>UGC</valueName>
+<value>TXZ200 TXZ213 TXZ226 TXZ227</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXA.KHGX.FG.Y.0003.000000T0000Z-120108T1600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5BA7C.DenseFogAdvisory.124C93E65400TX.HGXNPWHGX.44b5cf03d90033a3064469c97f215ead</id>
+<updated>2012-01-08T06:07:00-06:00</updated>
+<published>2012-01-08T06:07:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Fog Advisory issued January 08 at 6:07AM CST until January 08 at 10:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5BA7C.DenseFogAdvisory.124C93E65400TX.HGXNPWHGX.44b5cf03d90033a3064469c97f215ead'/>
+<summary>...DENSE FOG ADVISORY IN EFFECT... .DENSE SEA FOG HAS DEVELOPED OVER THE NEARSHORE GULF WATERS AND BAYS AND HAS PUSHED INLAND. VISIBILITIES SHOULD GRADUALLY IMPROVE DURING THE MID TO LATE MORNING HOURS...BUT LINGER A BIT LONGER ALONG THE WATERFRONT LOCATIONS. ...DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 10 AM CST THIS</summary>
+<cap:event>Dense Fog Advisory</cap:event>
+<cap:effective>2012-01-08T06:07:00-06:00</cap:effective>
+<cap:expires>2012-01-08T10:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Brazoria; Chambers; Galveston; Jackson; Matagorda</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048039 048071 048167 048239 048321</value>
+<valueName>UGC</valueName>
+<value>TXZ214 TXZ235 TXZ236 TXZ237 TXZ238</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KHGX.FG.Y.0003.000000T0000Z-120108T1600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5B7C0.SpecialWeatherStatement.124C93E73E60TX.SJTSPSSJT.f57836fb232239380c38e50ca7628d9b</id>
+<updated>2012-01-08T06:00:00-06:00</updated>
+<published>2012-01-08T06:00:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued January 08 at 6:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E5B7C0.SpecialWeatherStatement.124C93E73E60TX.SJTSPSSJT.f57836fb232239380c38e50ca7628d9b'/>
+<summary>...SNOW POSSIBLE ACROSS PARTS OF WEST CENTRAL TEXAS... A SLOW MOVING UPPER LEVEL LOW PRESSURE SYSTEM WILL DEEPEN AS IT MOVES ACROSS SOUTHERN ARIZONA AND NEW MEXICO ON SUNDAY. LIGHT RAIN IS EXPECTED TO DEVELOP ACROSS WEST CENTRAL TEXAS SUNDAY NIGHT AS THIS SYSTEM INCHES EASTWARD. TEMPERATURES MAY BE COLD ENOUGH TO SEE A WINTRY MIX OF RAIN AND SNOW ACROSS THE WESTERN PORTIONS OF</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-01-08T06:00:00-06:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Brown; Callahan; Coke; Coleman; Concho; Crockett; Fisher; Haskell; Irion; Jones; Kimble; Mason; McCulloch; Menard; Nolan; Runnels; San Saba; Schleicher; Shackelford; Sterling; Sutton; Taylor; Throckmorton; Tom Green</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048049 048059 048081 048083 048095 048105 048151 048207 048235 048253 048267 048307 048319 048327 048353 048399 048411 048413 048417 048431 048435 048441 048447 048451</value>
+<valueName>UGC</valueName>
+<value>TXZ049 TXZ054 TXZ064 TXZ065 TXZ066 TXZ071 TXZ072 TXZ073 TXZ076 TXZ077 TXZ078 TXZ098 TXZ099 TXZ113 TXZ114 TXZ127 TXZ128 TXZ139 TXZ140 TXZ154 TXZ155 TXZ168 TXZ169 TXZ170</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E57A08.SpecialWeatherStatement.124C93E73E60TX.AMASPSAMA.25703db9d8af2edcc3dfacd1ee86636d</id>
+<updated>2012-01-08T04:42:00-06:00</updated>
+<published>2012-01-08T04:42:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued January 08 at 4:42AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E57A08.SpecialWeatherStatement.124C93E73E60TX.AMASPSAMA.25703db9d8af2edcc3dfacd1ee86636d'/>
+<summary>...WINTRY WEATHER WILL BE POSSIBLE ACROSS THE PANHANDLES THROUGH TUESDAY... LIGHT SNOW WILL BE POSSIBLE OVER THE OKLAHOMA PANHANDLE AND THE NORTHWEST TEXAS PANHANDLE THROUGH THIS AFTERNOON. THEN...LIGHT SNOW WILL BE POSSIBLE ACROSS THE FAR WESTERN TEXAS PANHANDLE TONIGHT. LIGHT SNOWFALL ACCUMULATIONS OF LESS THAN ONE INCH WILL BE</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-01-08T04:42:00-06:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Armstrong; Carson; Collingsworth; Dallam; Deaf Smith; Donley; Gray; Hansford; Hartley; Hemphill; Hutchinson; Lipscomb; Moore; Ochiltree; Oldham; Potter; Randall; Roberts; Sherman; Wheeler</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048011 048065 048087 048111 048117 048129 048179 048195 048205 048211 048233 048295 048341 048357 048359 048375 048381 048393 048421 048483</value>
+<valueName>UGC</valueName>
+<value>TXZ001 TXZ002 TXZ003 TXZ004 TXZ005 TXZ006 TXZ007 TXZ008 TXZ009 TXZ010 TXZ011 TXZ012 TXZ013 TXZ014 TXZ015 TXZ016 TXZ017 TXZ018 TXZ019 TXZ020</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E57684.WinterStormWatch.124C93E73E60TX.SJTWSWSJT.7188bce73785352292c6b8e6ae1a8ca6</id>
+<updated>2012-01-08T04:33:00-06:00</updated>
+<published>2012-01-08T04:33:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Watch issued January 08 at 4:33AM CST until January 10 at 6:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E57684.WinterStormWatch.124C93E73E60TX.SJTWSWSJT.7188bce73785352292c6b8e6ae1a8ca6'/>
+<summary>...WINTER WEATHER POSSIBLE FOR PORTIONS OF WEST CENTRAL TEXAS.. .AN UPPER LEVEL STORM SYSTEM WILL APPROACH WEST CENTRAL TEXAS LATE SUNDAY...THEN MOVE ACROSS THE AREA ON MONDAY. AS THE SYSTEM APPROACHES...PRECIPITATION CHANCES WILL INCREASE SUNDAY NIGHT... CONTINUING THROUGH TUESDAY MORNING. SNOW OR A RAIN/SNOW MIX WILL BE POSSIBLE FOR PARTS OF THE BIG COUNTRY...CONCHO VALLEY AND</summary>
+<cap:event>Winter Storm Watch</cap:event>
+<cap:effective>2012-01-08T04:33:00-06:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Future</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Possible</cap:certainty>
+<cap:areaDesc>Coke; Fisher; Haskell; Jones; Nolan; Sterling</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048081 048151 048207 048253 048353 048431</value>
+<valueName>UGC</valueName>
+<value>TXZ049 TXZ054 TXZ064 TXZ065 TXZ098 TXZ113</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.NEW.KSJT.WS.A.0001.120109T0600Z-120110T1200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E570A8.SpecialWeatherStatement.124C93E73E60TX.LUBSPSLUB.17dc8d9531493f0cec479de3264747a3</id>
+<updated>2012-01-08T04:18:00-06:00</updated>
+<published>2012-01-08T04:18:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued January 08 at 4:18AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E570A8.SpecialWeatherStatement.124C93E73E60TX.LUBSPSLUB.17dc8d9531493f0cec479de3264747a3'/>
+<summary>...SNOW EXPECTED TONIGHT THROUGH MONDAY NIGHT... A WINTER STORM TAKING SHAPE ACROSS THE DESERT SOUTHWEST EARLY THIS MORNING WILL MOVE EASTWARD AND SPREAD PRECIPITATION ACROSS THE EXTREME SOUTHERN PANHANDLE AND THE NORTHERN SECTIONS OF THE SOUTH PLAINS AND ROLLING PLAINS. INITIALLY FALLING AS RAIN THIS EVENING...PRECIPITATION IS EXPECTED TO CHANGE TO OR MIX WITH SNOW</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-01-08T04:18:00-06:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Bailey; Briscoe; Castro; Childress; Cottle; Floyd; Hale; Hall; Lamb; Motley; Parmer; Swisher</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048017 048045 048069 048075 048101 048153 048189 048191 048279 048345 048369 048437</value>
+<valueName>UGC</valueName>
+<value>TXZ021 TXZ022 TXZ023 TXZ024 TXZ025 TXZ026 TXZ027 TXZ028 TXZ029 TXZ030 TXZ031 TXZ032</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E570A8.WinterStormWatch.124C93E73E60TX.LUBWSWLUB.682d421f78f9bed28a7822314e77ba65</id>
+<updated>2012-01-08T04:18:00-06:00</updated>
+<published>2012-01-08T04:18:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Winter Storm Watch issued January 08 at 4:18AM CST until January 10 at 12:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E570A8.WinterStormWatch.124C93E73E60TX.LUBWSWLUB.682d421f78f9bed28a7822314e77ba65'/>
+<summary>...SNOWFALL MORE LIKELY AS A WINTER STORM DEVELOPS OUT WEST... .A STRONG STORM SYSTEM TAKING SHAPE ACROSS THE DESERT SOUTHWEST THIS MORNING WILL MOVE TOWARDS THE REGION THIS AFTERNOON WITH PRECIPITATION BEGINNING THIS EVENING. COLD AIR WILL PUSH INTO THE REGION BEHIND A FRONT HELPING PUSH TEMPERATURES TO NEAR OR BELOW FREEZING. THIS WILL COINCIDE WITH THE TIMING FOR THE HEAVIEST</summary>
+<cap:event>Winter Storm Watch</cap:event>
+<cap:effective>2012-01-08T04:18:00-06:00</cap:effective>
+<cap:expires>2012-01-08T16:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Future</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Possible</cap:certainty>
+<cap:areaDesc>Cochran; Crosby; Dickens; Garza; Hockley; Kent; King; Lubbock; Lynn; Stonewall; Terry; Yoakum</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048079 048107 048125 048169 048219 048263 048269 048303 048305 048433 048445 048501</value>
+<valueName>UGC</valueName>
+<value>TXZ033 TXZ034 TXZ035 TXZ036 TXZ037 TXZ038 TXZ039 TXZ040 TXZ041 TXZ042 TXZ043 TXZ044</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.EXT.KLUB.WS.A.0001.120109T0000Z-120110T0600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E55618.DenseFogAdvisory.124C93E65400TX.CRPNPWCRP.728963f36d6948101125d3c2abe6b0b3</id>
+<updated>2012-01-08T03:50:00-06:00</updated>
+<published>2012-01-08T03:50:00-06:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Fog Advisory issued January 08 at 3:50AM CST until January 08 at 10:00AM CST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=TX124C93E55618.DenseFogAdvisory.124C93E65400TX.CRPNPWCRP.728963f36d6948101125d3c2abe6b0b3'/>
+<summary>...AREAS OF DENSE FOG THIS MORNING... .AREAS OF DENSE FOG WILL CONTINUE OVER NEARLY ALL OF SOUTH TEXAS THROUGH MID MORNING...WITH DENSE FOG POSSIBLY LASTING THROUGH LATE MORNING AS SEA FOG COMBINES WITH INLAND FOG. ...DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 10 AM CST THIS MORNING...</summary>
+<cap:event>Dense Fog Advisory</cap:event>
+<cap:effective>2012-01-08T03:50:00-06:00</cap:effective>
+<cap:expires>2012-01-08T10:00:00-06:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Aransas; Bee; Calhoun; Duval; Goliad; Jim Wells; Kleberg; La Salle; Live Oak; McMullen; Nueces; Refugio; San Patricio; Victoria; Webb</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>048007 048025 048057 048131 048175 048249 048273 048283 048297 048311 048355 048391 048409 048469 048479</value>
+<valueName>UGC</valueName>
+<value>TXZ229 TXZ230 TXZ231 TXZ232 TXZ233 TXZ234 TXZ239 TXZ240 TXZ241 TXZ242 TXZ243 TXZ244 TXZ245 TXZ246 TXZ247</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KCRP.FG.Y.0002.000000T0000Z-120108T1600Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=UT124C93E576E8.WindAdvisory.124C93E6C930UT.SLCNPWSLC.ee90d90999d5a85869b97e92ce24ca23</id>
+<updated>2012-01-08T03:34:00-07:00</updated>
+<published>2012-01-08T03:34:00-07:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Wind Advisory issued January 08 at 3:34AM MST until January 08 at 4:00PM MST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=UT124C93E576E8.WindAdvisory.124C93E6C930UT.SLCNPWSLC.ee90d90999d5a85869b97e92ce24ca23'/>
+<summary>...WIND ADVISORY REMAINS IN EFFECT UNTIL 4 PM MST THIS AFTERNOON... A WIND ADVISORY REMAINS IN EFFECT UNTIL 4 PM MST THIS AFTERNOON. * AFFECTED AREA: THE ST GEORGE METRO AREA IS NOT IN THE ADVISORY. THIS ADVISORY IS FOR INTERSTATE 15 FROM THE IRON COUNTY LINE SOUTH TO NEAR THE TOWN OF WASHINGTON...AND ALONG THE SOUTHWEST</summary>
+<cap:event>Wind Advisory</cap:event>
+<cap:effective>2012-01-08T03:34:00-07:00</cap:effective>
+<cap:expires>2012-01-08T12:00:00-07:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Southern Utah Mountains; Utah&apos;s Dixie and Zion National Park</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>049001 049017 049021 049025 049031 049053 049055</value>
+<valueName>UGC</valueName>
+<value>UTZ019 UTZ518</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSLC.WI.Y.0001.000000T0000Z-120108T2300Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=WA124C93E57D8C.CoastalFloodWatch.124C93E77128WA.SEWCFWSEW.f91d775647a304e8c05432100000e3c4</id>
+<updated>2012-01-08T02:51:00-08:00</updated>
+<published>2012-01-08T02:51:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Coastal Flood Watch issued January 08 at 2:51AM PST until January 09 at 6:00PM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=WA124C93E57D8C.CoastalFloodWatch.124C93E77128WA.SEWCFWSEW.f91d775647a304e8c05432100000e3c4'/>
+<summary>...COASTAL FLOOD WATCH REMAINS IN EFFECT FROM MONDAY MORNING THROUGH MONDAY AFTERNOON... * AFFECTED AREA...LA PUSH AND THE QUILEUTE TRIBE LOWER VILLAGE. * SWELLS...WESTERLY SWELL OF 10 FEET TODAY WILL BUILD TO 15 FEET MONDAY. * TIME OF HIGH TIDE...NOON PST MONDAY.</summary>
+<cap:event>Coastal Flood Watch</cap:event>
+<cap:effective>2012-01-08T02:51:00-08:00</cap:effective>
+<cap:expires>2012-01-08T15:30:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Future</cap:urgency>
+<cap:severity>Moderate</cap:severity>
+<cap:certainty>Possible</cap:certainty>
+<cap:areaDesc>North Coast</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>053009 053031</value>
+<valueName>UGC</valueName>
+<value>WAZ516</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.CON.KSEW.CF.A.0001.120109T1400Z-120110T0200Z/</value>
+</cap:parameter>
+</entry>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=WA124C93E50410.DenseFogAdvisory.124C93E6A220WA.PQRNPWPQR.be32d653478ea324bdd5341c7e4b16a1</id>
+<updated>2012-01-07T23:40:00-08:00</updated>
+<published>2012-01-07T23:40:00-08:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Dense Fog Advisory issued January 07 at 11:40PM PST until January 08 at 10:00AM PST by NWS</title>
+<link href='http://alerts.weather.gov/cap/wwacapget.php?x=WA124C93E50410.DenseFogAdvisory.124C93E6A220WA.PQRNPWPQR.be32d653478ea324bdd5341c7e4b16a1'/>
+<summary>...DENSE FOG ADVISORY IN EFFECT UNTIL 10 AM PST SUNDAY FOR THE WILLAMETTE VALLEY...CLARK COUNTY...INTERSTATE 5 CORRIDOR IN SOUTHWEST WASHINGTON... THE NATIONAL WEATHER SERVICE IN PORTLAND HAS ISSUED A DENSE FOG ADVISORY...WHICH IS IN EFFECT UNTIL 10 AM PST SUNDAY. * VISIBILITY: AT OR BELOW ONE QUARTER OF A MILE. NEAR ZERO AT TIMES.</summary>
+<cap:event>Dense Fog Advisory</cap:event>
+<cap:effective>2012-01-07T23:40:00-08:00</cap:effective>
+<cap:expires>2012-01-08T10:00:00-08:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Likely</cap:certainty>
+<cap:areaDesc>Greater Vancouver Area; Lower Columbia and I - 5 Corridor in Cowlitz County</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>053011 053015 053069</value>
+<valueName>UGC</valueName>
+<value>WAZ022 WAZ039</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value>/O.NEW.KPQR.FG.Y.0001.120108T0740Z-120108T1800Z/</value>
+</cap:parameter>
+</entry>
+</feed>

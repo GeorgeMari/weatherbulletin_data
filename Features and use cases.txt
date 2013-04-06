@@ -1,0 +1,5 @@
+Features
+========
+1. Use webOS alerts and notifications to alert the user of impending bad weather.
+2. Allows the user to configure which locations he or she would like to receive alerts for.
+3. Can we read the calendar, looking for upcoming events with locations that we may want to send an alert for?

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?>
+
+<!--
+This atom/xml feed is an index to active advisories, watches and warnings 
+issued by the National Weather Service.  This index file is not the complete 
+Common Alerting Protocol (CAP) alert message.  To obtain the complete CAP 
+alert, please follow the links for each entry in this index.  Also note the 
+CAP message uses a style sheet to convey the information in a human readable 
+format.  Please view the source of the CAP message to see the complete data 
+set.  Not all information in the CAP message is contained in this index of 
+active alerts.
+-->
+
+<feed
+xmlns = 'http://www.w3.org/2005/Atom'
+xmlns:cap = 'urn:oasis:names:tc:emergency:cap:1.1'
+xmlns:ha = 'http://www.alerting.net/namespace/index_1.0'
+>
+<!-- http-date = Fri, 25 May 2012 12:42:00 GMT -->
+<id>http://alerts.weather.gov/cap/il.atom</id>
+<logo>http://alerts.weather.gov/images/xml_logo.gif</logo>
+<generator>NWS CAP Server</generator>
+<updated>2012-05-24T19:42:00-05:00</updated>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Current Watches, Warnings and Advisories for Illinois Issued by the National Weather Service</title>
+<link href='http://alerts.weather.gov/cap/il.atom'/>
+<entry>
+<id>http://alerts.weather.gov/cap/wwacapget.php?x=IL124CACBEDDA8.SpecialWeatherStatement.124CACC053E0IL.PAHSPSPAH.fd94a5a46ffdc3cdbb91d07150be446f</id>
+<updated>2012-05-24T19:42:00-05:00</updated>
+<published>2012-05-24T19:42:00-05:00</published>
+<author>
+<name>w-nws.webmaster@noaa.gov</name>
+</author>
+<title>Special Weather Statement issued May 24 at 7:42PM CDT by NWS</title>
+<link href="http://alerts.weather.gov/cap/wwacapget.php?x=IL124CACBEDDA8.SpecialWeatherStatement.124CACC053E0IL.PAHSPSPAH.fd94a5a46ffdc3cdbb91d07150be446f"/>
+<summary>...RECORD OR NEAR RECORD HEAT EXPECTED THIS HOLIDAY WEEKEND... BE PREPARED FOR A HOT MEMORIAL DAY WEEKEND...WITH NEAR RECORD HIGH TEMPERATURES IN THE MID 90S...WITH EVEN UPPER 90S POSSIBLE IN SOME LOCATIONS. DUE TO A LACK OF HIGH SURFACE MOISTURE...HEAT INDEX VALUES SHOULD STAY CLOSE TO THE ACTUAL AIR TEMPERATURES...GENERALLY IN THE MID TO UPPER 90S. THIS WILL BE SOME OF THE WARMEST AIR THIS</summary>
+<cap:event>Special Weather Statement</cap:event>
+<cap:effective>2012-05-24T19:42:00-05:00</cap:effective>
+<cap:expires>2012-05-25T05:00:00-05:00</cap:expires>
+<cap:status>Actual</cap:status>
+<cap:msgType>Alert</cap:msgType>
+<cap:category>Met</cap:category>
+<cap:urgency>Expected</cap:urgency>
+<cap:severity>Minor</cap:severity>
+<cap:certainty>Observed</cap:certainty>
+<cap:areaDesc>Alexander; Edwards; Franklin; Gallatin; Hamilton; Hardin; Jackson; Jefferson; Johnson; Massac; Perry; Pope; Pulaski; Saline; Union; Wabash; Wayne; White; Williamson</cap:areaDesc>
+<cap:geocode>
+<valueName>FIPS6</valueName>
+<value>017003 017047 017055 017059 017065 017069 017077 017081 017087 017127 017145 017151 017153 017165 017181 017185 017191 017193 017199</value>
+<valueName>UGC</valueName>
+<value>ILZ075 ILZ076 ILZ077 ILZ078 ILZ080 ILZ081 ILZ082 ILZ083 ILZ084 ILZ085 ILZ086 ILZ087 ILZ088 ILZ089 ILZ090 ILZ091 ILZ092 ILZ093 ILZ094</value>
+</cap:geocode>
+<cap:parameter>
+<valueName>VTEC</valueName>
+<value></value>
+</cap:parameter>
+</entry>
+</feed>
