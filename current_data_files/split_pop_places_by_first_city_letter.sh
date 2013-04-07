@@ -1,6 +1,7 @@
 #!/bin/sh
 #! grep '^[0-9][0-9][0-9][0-9][0-9][0-9][0-9]|A' POP_PLACES_20111204.txt > A.txt
 #! cat POP_PLACES_20111204.txt | cut -d '|' -f 1 --complement > POP_PLACES_by_city.txt
+export LC_ALL=POSIX 
 grep --ignore-case '^a' POP_PLACES_by_city.txt > A_unsorted.txt
 sort --ignore-case A_unsorted.txt > A.txt
 grep --ignore-case '^b' POP_PLACES_by_city.txt > B_unsorted.txt
@@ -53,4 +54,4 @@ grep --ignore-case '^y' POP_PLACES_by_city.txt > Y_unsorted.txt
 sort --ignore-case Y_unsorted.txt > Y.txt
 grep --ignore-case '^z' POP_PLACES_by_city.txt > Z_unsorted.txt
 sort --ignore-case Z_unsorted.txt > Z.txt
-
+export LC_ALL=en_US.UTF-8
