@@ -1,0 +1,66 @@
+		this.DBStatementList = [
+			'CREATE TABLE CAPAlert(alertId TEXT NOT NULL, ' +
+										'updated_tstamp INTEGER, ' +
+										'published_tstamp INTEGER, ' +
+										'title TEXT, ' +
+										'url TEXT, ' +
+										'summary TEXT, ' +
+										'event TEXT, ' +
+										'effective_tstamp INTEGER, ' +
+										'expiration_tstamp INTEGER, ' +
+										'download_tstamp INTEGER NOT NULL, ' +
+										'notification_tstamp INTEGER, ' +
+										'user_ack_tstamp INTEGER, ' +
+										'status TEXT, ' +
+										'msgType TEXT, ' + 
+										'category TEXT, ' +
+										'urgency TEXT, ' +
+										'severity TEXT, ' +
+										'certainty TEXT, ' +
+										'areaDesc TEXT);',
+			'CREATE TABLE alertFIPS(alertId TEXT NOT NULL, ' +
+										 'download_tstamp INTEGER NOT NULL, ' +
+										 'fips TEXT NOT NULL);', 
+			'CREATE TABLE alertUGC(alertId TEXT NOT NULL, ' +
+										'download_tstamp INTEGER NOT NULL, ' +
+										'ugc TEXT NOT NULL);',
+			'CREATE TABLE observation(stationId TEXT NOT NULL, ' +
+										'obs_tstamp INTEGER NOT NULL, ' +
+										'dl_stamp INTEGER NOT NULL, ' +
+										'icon_url TEXT, ' +
+										'temp_f NUMERIC, temp_c NUMERIC, ' +
+										'weather TEXT, relative_humidity NUMERIC, ' +
+										'wind_mph NUMERIC, wind_dir TEXT, wind_degrees NUMERIC' +
+										'pressure_mb NUMERIC, ' +
+										'pressure_inches NUMERIC, ' +
+										'dewpoint_f NUMERIC, dewpoint_c NUMERIC, ' +
+										'heatindex_f NUMERIC, heatindex_c NUMERIC, ' +
+										'windchill_f NUMERIC, windchill_c NUMERIC, ' +
+										'visibility_miles NUMERIC);', 
+			'CREATE UNIQUE INDEX ca_id ON CAPAlert(alertId);',
+			'CREATE INDEX ca_dlt ON CAPAlert(download_tstamp);',
+			'CREATE INDEX af_id ON alertFIPS(alertId);',
+			'CREATE INDEX af_dlt ON alertFIPS(download_tstamp);',
+			'CREATE INDEX au_id ON alertUGC(alertId);',
+			'CREATE INDEX au_dlt ON alertUGC(download_tstamp);',
+			'CREATE INDEX ob_id ON observation(stationId);'
+			];
+				transaction.executeSql('CREATE TABLE countyZone(state TEXT, ' +
+												'zone_no TEXT, ' +
+												'zone_name TEXT, ' + 
+												'county_fips TEXT, ' +
+												'county_name TEXT, ' +
+												'latitude NUMERIC, ' +
+												'longitude NUMERIC);');
+				transaction.executeSql('CREATE INDEX cz_fips ON countyZone(county_fips);');
+
+				transaction.executeSql('CREATE TABLE weatherStation(state TEXT, ' +
+												'station_name TEXT, ' +
+												'intl_id TEXT, ' + 
+												'faa_id TEXT, ' +
+												'metar TEXT, ' +
+												'radar TEXT, ' +
+												'latitude NUMERIC, ' +
+												'longitude NUMERIC);');
+			transaction.executeSql('CREATE INDEX st_intl_id ON weatherStation(intl_id);');
+
