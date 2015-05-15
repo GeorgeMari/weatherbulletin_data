@@ -1,3 +1,0 @@
-1989466|Millersville|Populated Place|UM|74|Jarvis Island|150|002247S|1600108W|-.3797222|-160.0188889|||||0|0|Unknown|07/24/2003|
-1989467|Meyerton (historical)|Populated Place|UM|74|Baker Island|050|001141N|1762846W|.1947222|-176.4794444|||||4|13|Unknown|07/24/2003|
-1989667|Itascatown (historical)|Populated Place|UM|74|Howland Island|100|004807N|1763810W|.8019444|-176.6361111|||||-1|-3|Unknown|07/29/2003|
